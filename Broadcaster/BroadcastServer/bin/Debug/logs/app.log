@@ -1,0 +1,1806 @@
+2024-08-27 00:01:04,692 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:02:52,554 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:02:58,973 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:02:59,042 [9] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 20956 байт
+2024-08-27 00:02:59,089 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 20956 байт
+2024-08-27 00:02:59,191 [4] INFO  BroadcastServer.MainWindow - Клиент отключен
+2024-08-27 00:02:59,212 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 20956 байт
+2024-08-27 00:02:59,295 [4] ERROR BroadcastServer.MainWindow - Ошибка при отправке данных
+System.ObjectDisposedException: Доступ к ликвидированному объекту невозможен.
+Имя объекта: "System.Net.Sockets.NetworkStream".
+   в System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в BroadcastServer.Data.ScreenStreamer.<SendScreen>d__3.MoveNext() в C:\Users\Roman\source\repos\Broadcaster\BroadcastServer\Data\ScreenStreamer.cs:строка 53
+2024-08-27 00:02:59,352 [4] INFO  BroadcastServer.MainWindow - Клиент отключен
+2024-08-27 00:08:03,083 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:08:11,354 [1] INFO  BroadcastServer.MainWindow - Клиент подключен
+2024-08-27 00:08:11,421 [10] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 11141 байт
+2024-08-27 00:08:11,437 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 11141 байт
+2024-08-27 00:08:11,572 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 11141 байт
+2024-08-27 00:08:11,577 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 11141 байт
+2024-08-27 00:08:11,706 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 15876 байт
+2024-08-27 00:08:11,711 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 15876 байт
+2024-08-27 00:08:11,845 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 20837 байт
+2024-08-27 00:08:11,846 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 20837 байт
+2024-08-27 00:08:11,987 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 24941 байт
+2024-08-27 00:08:11,989 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 24941 байт
+2024-08-27 00:08:12,124 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27324 байт
+2024-08-27 00:08:12,125 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27324 байт
+2024-08-27 00:08:12,254 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27213 байт
+2024-08-27 00:08:12,255 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27213 байт
+2024-08-27 00:08:12,388 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27235 байт
+2024-08-27 00:08:12,389 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27235 байт
+2024-08-27 00:08:12,505 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27223 байт
+2024-08-27 00:08:12,506 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27223 байт
+2024-08-27 00:08:12,638 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27256 байт
+2024-08-27 00:08:12,639 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27256 байт
+2024-08-27 00:08:12,756 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:12,758 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:12,888 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:12,889 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,011 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,014 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,141 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,142 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,288 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,289 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,424 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,428 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,553 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,555 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,689 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,690 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,820 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,821 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:13,956 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:13,957 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:14,108 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27286 байт
+2024-08-27 00:08:14,109 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27286 байт
+2024-08-27 00:08:14,240 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27213 байт
+2024-08-27 00:08:14,242 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27213 байт
+2024-08-27 00:08:14,369 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27213 байт
+2024-08-27 00:08:14,370 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27213 байт
+2024-08-27 00:08:14,487 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27275 байт
+2024-08-27 00:08:14,490 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27275 байт
+2024-08-27 00:08:14,622 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27523 байт
+2024-08-27 00:08:14,623 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27523 байт
+2024-08-27 00:08:14,760 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27066 байт
+2024-08-27 00:08:14,761 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27066 байт
+2024-08-27 00:08:14,888 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26690 байт
+2024-08-27 00:08:14,889 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26690 байт
+2024-08-27 00:08:15,020 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26692 байт
+2024-08-27 00:08:15,021 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26692 байт
+2024-08-27 00:08:15,152 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26770 байт
+2024-08-27 00:08:15,153 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26770 байт
+2024-08-27 00:08:15,270 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26713 байт
+2024-08-27 00:08:15,271 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26713 байт
+2024-08-27 00:08:15,410 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26701 байт
+2024-08-27 00:08:15,411 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26701 байт
+2024-08-27 00:08:15,536 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26698 байт
+2024-08-27 00:08:15,537 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26698 байт
+2024-08-27 00:08:15,671 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26693 байт
+2024-08-27 00:08:15,672 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26693 байт
+2024-08-27 00:08:15,802 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26741 байт
+2024-08-27 00:08:15,803 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26741 байт
+2024-08-27 00:08:15,938 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26741 байт
+2024-08-27 00:08:15,940 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26741 байт
+2024-08-27 00:08:16,077 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26741 байт
+2024-08-27 00:08:16,080 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26741 байт
+2024-08-27 00:08:16,219 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26741 байт
+2024-08-27 00:08:16,220 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26741 байт
+2024-08-27 00:08:16,352 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26698 байт
+2024-08-27 00:08:16,353 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26698 байт
+2024-08-27 00:08:16,495 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26641 байт
+2024-08-27 00:08:16,499 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26641 байт
+2024-08-27 00:08:16,616 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26599 байт
+2024-08-27 00:08:16,618 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26599 байт
+2024-08-27 00:08:16,751 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26608 байт
+2024-08-27 00:08:16,752 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26608 байт
+2024-08-27 00:08:16,883 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26784 байт
+2024-08-27 00:08:16,884 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26784 байт
+2024-08-27 00:08:17,029 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27301 байт
+2024-08-27 00:08:17,030 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27301 байт
+2024-08-27 00:08:17,160 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27629 байт
+2024-08-27 00:08:17,167 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27629 байт
+2024-08-27 00:08:17,287 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29612 байт
+2024-08-27 00:08:17,289 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29612 байт
+2024-08-27 00:08:17,427 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29870 байт
+2024-08-27 00:08:17,430 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29870 байт
+2024-08-27 00:08:17,568 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29626 байт
+2024-08-27 00:08:17,569 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29626 байт
+2024-08-27 00:08:17,700 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:17,701 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:17,815 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:17,816 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:17,951 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:17,952 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:18,089 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:18,091 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:18,218 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:18,219 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:18,351 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29555 байт
+2024-08-27 00:08:18,352 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29555 байт
+2024-08-27 00:08:18,481 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29550 байт
+2024-08-27 00:08:18,482 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29550 байт
+2024-08-27 00:08:18,607 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28568 байт
+2024-08-27 00:08:18,609 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28568 байт
+2024-08-27 00:08:18,759 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29355 байт
+2024-08-27 00:08:18,760 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29355 байт
+2024-08-27 00:08:18,889 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30597 байт
+2024-08-27 00:08:18,890 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30597 байт
+2024-08-27 00:08:19,019 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29088 байт
+2024-08-27 00:08:19,020 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29088 байт
+2024-08-27 00:08:19,160 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27783 байт
+2024-08-27 00:08:19,163 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27783 байт
+2024-08-27 00:08:19,302 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27026 байт
+2024-08-27 00:08:19,303 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27026 байт
+2024-08-27 00:08:19,432 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27079 байт
+2024-08-27 00:08:19,433 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27079 байт
+2024-08-27 00:08:19,550 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27441 байт
+2024-08-27 00:08:19,551 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27441 байт
+2024-08-27 00:08:19,684 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28591 байт
+2024-08-27 00:08:19,685 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28591 байт
+2024-08-27 00:08:19,818 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27318 байт
+2024-08-27 00:08:19,820 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27318 байт
+2024-08-27 00:08:19,947 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29071 байт
+2024-08-27 00:08:19,948 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29071 байт
+2024-08-27 00:08:20,065 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28859 байт
+2024-08-27 00:08:20,066 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28859 байт
+2024-08-27 00:08:20,199 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28665 байт
+2024-08-27 00:08:20,200 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28665 байт
+2024-08-27 00:08:20,331 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28610 байт
+2024-08-27 00:08:20,332 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28610 байт
+2024-08-27 00:08:20,464 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28861 байт
+2024-08-27 00:08:20,465 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28861 байт
+2024-08-27 00:08:20,579 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:20,581 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:20,713 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:20,715 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:20,830 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:20,832 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:20,965 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:20,966 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:21,082 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:21,084 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:21,213 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:21,214 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:21,336 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:21,339 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:21,467 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28909 байт
+2024-08-27 00:08:21,470 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28909 байт
+2024-08-27 00:08:21,596 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28840 байт
+2024-08-27 00:08:21,597 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28840 байт
+2024-08-27 00:08:21,729 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28824 байт
+2024-08-27 00:08:21,730 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28824 байт
+2024-08-27 00:08:21,850 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28828 байт
+2024-08-27 00:08:21,851 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28828 байт
+2024-08-27 00:08:21,987 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28843 байт
+2024-08-27 00:08:21,988 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28843 байт
+2024-08-27 00:08:22,116 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28965 байт
+2024-08-27 00:08:22,117 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28965 байт
+2024-08-27 00:08:22,247 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29062 байт
+2024-08-27 00:08:22,248 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29062 байт
+2024-08-27 00:08:22,363 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29240 байт
+2024-08-27 00:08:22,364 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29240 байт
+2024-08-27 00:08:22,499 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28787 байт
+2024-08-27 00:08:22,500 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28787 байт
+2024-08-27 00:08:22,636 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29852 байт
+2024-08-27 00:08:22,648 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29852 байт
+2024-08-27 00:08:22,782 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29904 байт
+2024-08-27 00:08:22,783 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29904 байт
+2024-08-27 00:08:22,913 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29310 байт
+2024-08-27 00:08:22,914 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29310 байт
+2024-08-27 00:08:23,049 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28362 байт
+2024-08-27 00:08:23,050 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28362 байт
+2024-08-27 00:08:23,178 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27821 байт
+2024-08-27 00:08:23,179 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27821 байт
+2024-08-27 00:08:23,315 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27396 байт
+2024-08-27 00:08:23,320 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27396 байт
+2024-08-27 00:08:23,448 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28054 байт
+2024-08-27 00:08:23,449 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28054 байт
+2024-08-27 00:08:23,577 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28320 байт
+2024-08-27 00:08:23,578 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28320 байт
+2024-08-27 00:08:23,694 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28031 байт
+2024-08-27 00:08:23,696 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28031 байт
+2024-08-27 00:08:23,831 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26779 байт
+2024-08-27 00:08:23,833 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26779 байт
+2024-08-27 00:08:23,969 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28249 байт
+2024-08-27 00:08:23,970 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28249 байт
+2024-08-27 00:08:24,110 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26845 байт
+2024-08-27 00:08:24,111 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26845 байт
+2024-08-27 00:08:24,244 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26702 байт
+2024-08-27 00:08:24,245 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26702 байт
+2024-08-27 00:08:24,374 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 25808 байт
+2024-08-27 00:08:24,375 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 25808 байт
+2024-08-27 00:08:24,498 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27237 байт
+2024-08-27 00:08:24,500 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27237 байт
+2024-08-27 00:08:24,631 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27711 байт
+2024-08-27 00:08:24,632 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27711 байт
+2024-08-27 00:08:24,760 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27112 байт
+2024-08-27 00:08:24,761 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27112 байт
+2024-08-27 00:08:24,878 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26779 байт
+2024-08-27 00:08:24,879 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26779 байт
+2024-08-27 00:08:25,024 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26456 байт
+2024-08-27 00:08:25,039 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26456 байт
+2024-08-27 00:08:25,164 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27258 байт
+2024-08-27 00:08:25,165 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27258 байт
+2024-08-27 00:08:25,292 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26950 байт
+2024-08-27 00:08:25,296 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26950 байт
+2024-08-27 00:08:25,428 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27261 байт
+2024-08-27 00:08:25,429 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27261 байт
+2024-08-27 00:08:25,565 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28651 байт
+2024-08-27 00:08:25,567 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28651 байт
+2024-08-27 00:08:25,713 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29451 байт
+2024-08-27 00:08:25,715 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29451 байт
+2024-08-27 00:08:25,846 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29561 байт
+2024-08-27 00:08:25,847 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29561 байт
+2024-08-27 00:08:25,983 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30909 байт
+2024-08-27 00:08:25,987 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30909 байт
+2024-08-27 00:08:26,126 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29117 байт
+2024-08-27 00:08:26,127 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29117 байт
+2024-08-27 00:08:26,260 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30091 байт
+2024-08-27 00:08:26,262 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30091 байт
+2024-08-27 00:08:26,395 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31019 байт
+2024-08-27 00:08:26,396 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31019 байт
+2024-08-27 00:08:26,531 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31759 байт
+2024-08-27 00:08:26,538 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31759 байт
+2024-08-27 00:08:26,661 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31759 байт
+2024-08-27 00:08:26,662 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31759 байт
+2024-08-27 00:08:26,793 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31759 байт
+2024-08-27 00:08:26,794 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31759 байт
+2024-08-27 00:08:26,910 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31264 байт
+2024-08-27 00:08:26,912 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31264 байт
+2024-08-27 00:08:27,048 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30647 байт
+2024-08-27 00:08:27,051 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30647 байт
+2024-08-27 00:08:27,191 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30353 байт
+2024-08-27 00:08:27,193 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30353 байт
+2024-08-27 00:08:27,332 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28884 байт
+2024-08-27 00:08:27,341 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28884 байт
+2024-08-27 00:08:27,461 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 26400 байт
+2024-08-27 00:08:27,462 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 26400 байт
+2024-08-27 00:08:27,595 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27276 байт
+2024-08-27 00:08:27,600 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27276 байт
+2024-08-27 00:08:27,726 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29530 байт
+2024-08-27 00:08:27,728 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29530 байт
+2024-08-27 00:08:27,871 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30799 байт
+2024-08-27 00:08:27,875 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30799 байт
+2024-08-27 00:08:28,009 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29769 байт
+2024-08-27 00:08:28,010 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29769 байт
+2024-08-27 00:08:28,123 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29769 байт
+2024-08-27 00:08:28,124 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29769 байт
+2024-08-27 00:08:28,248 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29764 байт
+2024-08-27 00:08:28,249 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29764 байт
+2024-08-27 00:08:28,378 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 29854 байт
+2024-08-27 00:08:28,381 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 29854 байт
+2024-08-27 00:08:28,514 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 28964 байт
+2024-08-27 00:08:28,519 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 28964 байт
+2024-08-27 00:08:28,640 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30110 байт
+2024-08-27 00:08:28,641 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30110 байт
+2024-08-27 00:08:28,759 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31304 байт
+2024-08-27 00:08:28,760 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31304 байт
+2024-08-27 00:08:28,890 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 30618 байт
+2024-08-27 00:08:28,891 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 30618 байт
+2024-08-27 00:08:29,007 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31849 байт
+2024-08-27 00:08:29,008 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31849 байт
+2024-08-27 00:08:29,145 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31354 байт
+2024-08-27 00:08:29,154 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31354 байт
+2024-08-27 00:08:29,276 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 31894 байт
+2024-08-27 00:08:29,279 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 31894 байт
+2024-08-27 00:08:29,407 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32643 байт
+2024-08-27 00:08:29,408 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32643 байт
+2024-08-27 00:08:29,539 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:29,541 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:29,677 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:29,679 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:29,808 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:29,810 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:29,940 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:29,941 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:30,078 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:30,080 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:30,224 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:30,229 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:30,355 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32383 байт
+2024-08-27 00:08:30,355 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32383 байт
+2024-08-27 00:08:30,482 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32318 байт
+2024-08-27 00:08:30,483 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32318 байт
+2024-08-27 00:08:30,606 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32280 байт
+2024-08-27 00:08:30,607 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32280 байт
+2024-08-27 00:08:30,721 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32334 байт
+2024-08-27 00:08:30,723 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32334 байт
+2024-08-27 00:08:30,857 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32391 байт
+2024-08-27 00:08:30,858 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32391 байт
+2024-08-27 00:08:30,974 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:30,975 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,113 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,116 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,258 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,260 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,394 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,394 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,522 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,523 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,654 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,655 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,775 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,780 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:31,905 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:31,907 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,040 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,041 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,170 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,171 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,290 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,292 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,420 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32430 байт
+2024-08-27 00:08:32,421 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32430 байт
+2024-08-27 00:08:32,537 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32448 байт
+2024-08-27 00:08:32,538 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32448 байт
+2024-08-27 00:08:32,677 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,678 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,805 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,807 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:32,938 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:32,939 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:33,071 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:33,072 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:33,204 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:33,205 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:33,338 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32437 байт
+2024-08-27 00:08:33,339 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32437 байт
+2024-08-27 00:08:33,470 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32383 байт
+2024-08-27 00:08:33,471 [16] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32383 байт
+2024-08-27 00:08:33,602 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32372 байт
+2024-08-27 00:08:33,603 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32372 байт
+2024-08-27 00:08:33,736 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32391 байт
+2024-08-27 00:08:33,739 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32391 байт
+2024-08-27 00:08:33,870 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32383 байт
+2024-08-27 00:08:33,871 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32383 байт
+2024-08-27 00:08:34,020 [16] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 32217 байт
+2024-08-27 00:08:34,023 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 32217 байт
+2024-08-27 00:08:34,165 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 27080 байт
+2024-08-27 00:08:34,174 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 27080 байт
+2024-08-27 00:08:34,305 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 24834 байт
+2024-08-27 00:08:34,382 [15] ERROR BroadcastServer.MainWindow - Ошибка при отправке данных
+System.IO.IOException: Не удается записать данные в транспортное соединение: Удаленный хост принудительно разорвал существующее подключение. ---> System.Net.Sockets.SocketException: Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   в System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в BroadcastServer.Data.ScreenStreamer.<SendScreen>d__3.MoveNext() в C:\Users\Roman\source\repos\Broadcaster\BroadcastServer\Data\ScreenStreamer.cs:строка 53
+2024-08-27 00:08:34,410 [15] INFO  BroadcastServer.MainWindow - Клиент отключен
+2024-08-27 00:11:29,977 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:11:35,761 [1] INFO  BroadcastServer.MainWindow - Клиент подключен
+2024-08-27 00:11:35,931 [9] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 112155 байт
+2024-08-27 00:11:35,944 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 112155 байт
+2024-08-27 00:11:36,072 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 112110 байт
+2024-08-27 00:11:36,073 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 112110 байт
+2024-08-27 00:11:36,213 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 140706 байт
+2024-08-27 00:11:36,217 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 140706 байт
+2024-08-27 00:11:36,354 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 140678 байт
+2024-08-27 00:11:36,359 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 140678 байт
+2024-08-27 00:11:36,486 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 148390 байт
+2024-08-27 00:11:36,490 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 148390 байт
+2024-08-27 00:11:36,631 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150541 байт
+2024-08-27 00:11:36,632 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150541 байт
+2024-08-27 00:11:36,789 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150809 байт
+2024-08-27 00:11:36,790 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150809 байт
+2024-08-27 00:11:36,917 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150844 байт
+2024-08-27 00:11:36,919 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150844 байт
+2024-08-27 00:11:37,050 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150837 байт
+2024-08-27 00:11:37,051 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150837 байт
+2024-08-27 00:11:37,193 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150831 байт
+2024-08-27 00:11:37,201 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150831 байт
+2024-08-27 00:11:37,368 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150818 байт
+2024-08-27 00:11:37,370 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150818 байт
+2024-08-27 00:11:37,495 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150926 байт
+2024-08-27 00:11:37,497 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150926 байт
+2024-08-27 00:11:37,651 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150953 байт
+2024-08-27 00:11:37,653 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150953 байт
+2024-08-27 00:11:37,768 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150953 байт
+2024-08-27 00:11:37,769 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150953 байт
+2024-08-27 00:11:37,908 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150818 байт
+2024-08-27 00:11:37,909 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150818 байт
+2024-08-27 00:11:38,030 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150818 байт
+2024-08-27 00:11:38,031 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150818 байт
+2024-08-27 00:11:38,150 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150866 байт
+2024-08-27 00:11:38,151 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150866 байт
+2024-08-27 00:11:38,292 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150866 байт
+2024-08-27 00:11:38,295 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150866 байт
+2024-08-27 00:11:38,431 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150839 байт
+2024-08-27 00:11:38,432 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150839 байт
+2024-08-27 00:11:38,580 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150835 байт
+2024-08-27 00:11:38,581 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150835 байт
+2024-08-27 00:11:38,757 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150788 байт
+2024-08-27 00:11:38,758 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150788 байт
+2024-08-27 00:11:38,891 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 158783 байт
+2024-08-27 00:11:38,892 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 158783 байт
+2024-08-27 00:11:39,054 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 165857 байт
+2024-08-27 00:11:39,056 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 165857 байт
+2024-08-27 00:11:39,198 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 174211 байт
+2024-08-27 00:11:39,199 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 174211 байт
+2024-08-27 00:11:39,325 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175316 байт
+2024-08-27 00:11:39,326 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175316 байт
+2024-08-27 00:11:39,452 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178232 байт
+2024-08-27 00:11:39,453 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178232 байт
+2024-08-27 00:11:39,586 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178500 байт
+2024-08-27 00:11:39,587 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178500 байт
+2024-08-27 00:11:39,723 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179016 байт
+2024-08-27 00:11:39,725 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179016 байт
+2024-08-27 00:11:39,888 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178784 байт
+2024-08-27 00:11:39,890 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178784 байт
+2024-08-27 00:11:40,023 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175366 байт
+2024-08-27 00:11:40,024 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175366 байт
+2024-08-27 00:11:40,176 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 174481 байт
+2024-08-27 00:11:40,178 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 174481 байт
+2024-08-27 00:11:40,331 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 173735 байт
+2024-08-27 00:11:40,333 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 173735 байт
+2024-08-27 00:11:40,479 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 174679 байт
+2024-08-27 00:11:40,483 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 174679 байт
+2024-08-27 00:11:40,624 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177747 байт
+2024-08-27 00:11:40,625 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177747 байт
+2024-08-27 00:11:40,789 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179287 байт
+2024-08-27 00:11:40,790 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179287 байт
+2024-08-27 00:11:40,970 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181699 байт
+2024-08-27 00:11:40,972 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181699 байт
+2024-08-27 00:11:41,165 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181246 байт
+2024-08-27 00:11:41,170 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181246 байт
+2024-08-27 00:11:41,308 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181817 байт
+2024-08-27 00:11:41,310 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181817 байт
+2024-08-27 00:11:41,455 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180354 байт
+2024-08-27 00:11:41,456 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180354 байт
+2024-08-27 00:11:41,630 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177237 байт
+2024-08-27 00:11:41,631 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177237 байт
+2024-08-27 00:11:41,788 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177445 байт
+2024-08-27 00:11:41,792 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177445 байт
+2024-08-27 00:11:41,946 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178089 байт
+2024-08-27 00:11:41,949 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178089 байт
+2024-08-27 00:11:42,102 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181946 байт
+2024-08-27 00:11:42,103 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181946 байт
+2024-08-27 00:11:42,243 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181162 байт
+2024-08-27 00:11:42,245 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181162 байт
+2024-08-27 00:11:42,360 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 183622 байт
+2024-08-27 00:11:42,362 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 183622 байт
+2024-08-27 00:11:42,509 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 182893 байт
+2024-08-27 00:11:42,514 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 182893 байт
+2024-08-27 00:11:42,646 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 185583 байт
+2024-08-27 00:11:42,648 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 185583 байт
+2024-08-27 00:11:42,816 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 182606 байт
+2024-08-27 00:11:42,817 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 182606 байт
+2024-08-27 00:11:43,008 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180736 байт
+2024-08-27 00:11:43,012 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180736 байт
+2024-08-27 00:11:43,199 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176166 байт
+2024-08-27 00:11:43,199 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176166 байт
+2024-08-27 00:11:43,376 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 173604 байт
+2024-08-27 00:11:43,378 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 173604 байт
+2024-08-27 00:11:43,529 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179465 байт
+2024-08-27 00:11:43,535 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179465 байт
+2024-08-27 00:11:43,692 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181009 байт
+2024-08-27 00:11:43,696 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181009 байт
+2024-08-27 00:11:43,863 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 182386 байт
+2024-08-27 00:11:43,865 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 182386 байт
+2024-08-27 00:11:44,040 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180328 байт
+2024-08-27 00:11:44,044 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180328 байт
+2024-08-27 00:11:44,176 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179167 байт
+2024-08-27 00:11:44,179 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179167 байт
+2024-08-27 00:11:44,309 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177701 байт
+2024-08-27 00:11:44,310 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177701 байт
+2024-08-27 00:11:44,453 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177033 байт
+2024-08-27 00:11:44,455 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177033 байт
+2024-08-27 00:11:44,583 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176940 байт
+2024-08-27 00:11:44,584 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176940 байт
+2024-08-27 00:11:44,715 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176848 байт
+2024-08-27 00:11:44,716 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176848 байт
+2024-08-27 00:11:44,852 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177484 байт
+2024-08-27 00:11:44,853 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177484 байт
+2024-08-27 00:11:44,970 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177320 байт
+2024-08-27 00:11:44,971 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177320 байт
+2024-08-27 00:11:45,234 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177734 байт
+2024-08-27 00:11:45,323 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177734 байт
+2024-08-27 00:11:45,478 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177729 байт
+2024-08-27 00:11:45,479 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177729 байт
+2024-08-27 00:11:45,676 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177738 байт
+2024-08-27 00:11:45,698 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177738 байт
+2024-08-27 00:11:45,844 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177616 байт
+2024-08-27 00:11:45,845 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177616 байт
+2024-08-27 00:11:46,008 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177680 байт
+2024-08-27 00:11:46,009 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177680 байт
+2024-08-27 00:11:46,142 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177708 байт
+2024-08-27 00:11:46,147 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177708 байт
+2024-08-27 00:11:46,269 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177695 байт
+2024-08-27 00:11:46,271 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177695 байт
+2024-08-27 00:11:46,402 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177671 байт
+2024-08-27 00:11:46,403 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177671 байт
+2024-08-27 00:11:46,532 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177761 байт
+2024-08-27 00:11:46,534 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177761 байт
+2024-08-27 00:11:46,656 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177824 байт
+2024-08-27 00:11:46,657 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177824 байт
+2024-08-27 00:11:46,793 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177782 байт
+2024-08-27 00:11:46,796 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177782 байт
+2024-08-27 00:11:46,917 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177776 байт
+2024-08-27 00:11:46,918 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177776 байт
+2024-08-27 00:11:47,058 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177874 байт
+2024-08-27 00:11:47,059 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177874 байт
+2024-08-27 00:11:47,191 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177849 байт
+2024-08-27 00:11:47,192 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177849 байт
+2024-08-27 00:11:47,333 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177839 байт
+2024-08-27 00:11:47,335 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177839 байт
+2024-08-27 00:11:47,461 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177897 байт
+2024-08-27 00:11:47,462 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177897 байт
+2024-08-27 00:11:47,593 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177873 байт
+2024-08-27 00:11:47,595 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177873 байт
+2024-08-27 00:11:47,718 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177881 байт
+2024-08-27 00:11:47,720 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177881 байт
+2024-08-27 00:11:47,856 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177927 байт
+2024-08-27 00:11:47,857 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177927 байт
+2024-08-27 00:11:47,982 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177936 байт
+2024-08-27 00:11:47,987 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177936 байт
+2024-08-27 00:11:48,140 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177893 байт
+2024-08-27 00:11:48,144 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177893 байт
+2024-08-27 00:11:48,270 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177843 байт
+2024-08-27 00:11:48,271 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177843 байт
+2024-08-27 00:11:48,411 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177802 байт
+2024-08-27 00:11:48,412 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177802 байт
+2024-08-27 00:11:48,548 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177910 байт
+2024-08-27 00:11:48,549 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177910 байт
+2024-08-27 00:11:48,679 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177711 байт
+2024-08-27 00:11:48,680 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177711 байт
+2024-08-27 00:11:48,836 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177666 байт
+2024-08-27 00:11:48,837 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177666 байт
+2024-08-27 00:11:48,958 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177522 байт
+2024-08-27 00:11:48,959 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177522 байт
+2024-08-27 00:11:49,089 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177538 байт
+2024-08-27 00:11:49,091 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177538 байт
+2024-08-27 00:11:49,210 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177560 байт
+2024-08-27 00:11:49,211 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177560 байт
+2024-08-27 00:11:49,338 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177422 байт
+2024-08-27 00:11:49,340 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177422 байт
+2024-08-27 00:11:49,481 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177573 байт
+2024-08-27 00:11:49,482 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177573 байт
+2024-08-27 00:11:49,602 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177616 байт
+2024-08-27 00:11:49,603 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177616 байт
+2024-08-27 00:11:49,726 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177588 байт
+2024-08-27 00:11:49,728 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177588 байт
+2024-08-27 00:11:49,853 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177600 байт
+2024-08-27 00:11:49,858 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177600 байт
+2024-08-27 00:11:49,972 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177630 байт
+2024-08-27 00:11:49,973 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177630 байт
+2024-08-27 00:11:50,122 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177708 байт
+2024-08-27 00:11:50,123 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177708 байт
+2024-08-27 00:11:50,241 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177692 байт
+2024-08-27 00:11:50,242 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177692 байт
+2024-08-27 00:11:50,374 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177752 байт
+2024-08-27 00:11:50,375 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177752 байт
+2024-08-27 00:11:50,486 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177752 байт
+2024-08-27 00:11:50,488 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177752 байт
+2024-08-27 00:11:50,617 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177792 байт
+2024-08-27 00:11:50,618 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177792 байт
+2024-08-27 00:11:50,758 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177788 байт
+2024-08-27 00:11:50,760 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177788 байт
+2024-08-27 00:11:50,889 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177708 байт
+2024-08-27 00:11:50,890 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177708 байт
+2024-08-27 00:11:51,020 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177778 байт
+2024-08-27 00:11:51,021 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177778 байт
+2024-08-27 00:11:51,167 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177702 байт
+2024-08-27 00:11:51,168 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177702 байт
+2024-08-27 00:11:51,280 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177813 байт
+2024-08-27 00:11:51,281 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177813 байт
+2024-08-27 00:11:51,414 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177878 байт
+2024-08-27 00:11:51,417 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177878 байт
+2024-08-27 00:11:51,534 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177841 байт
+2024-08-27 00:11:51,538 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177841 байт
+2024-08-27 00:11:51,685 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177907 байт
+2024-08-27 00:11:51,687 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177907 байт
+2024-08-27 00:11:51,801 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177780 байт
+2024-08-27 00:11:51,802 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177780 байт
+2024-08-27 00:11:51,931 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177787 байт
+2024-08-27 00:11:51,933 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177787 байт
+2024-08-27 00:11:52,058 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177851 байт
+2024-08-27 00:11:52,060 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177851 байт
+2024-08-27 00:11:52,189 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177851 байт
+2024-08-27 00:11:52,191 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177851 байт
+2024-08-27 00:11:52,335 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177869 байт
+2024-08-27 00:11:52,336 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177869 байт
+2024-08-27 00:11:52,468 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177869 байт
+2024-08-27 00:11:52,474 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177869 байт
+2024-08-27 00:11:52,649 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180116 байт
+2024-08-27 00:11:52,650 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180116 байт
+2024-08-27 00:11:52,795 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179234 байт
+2024-08-27 00:11:52,797 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179234 байт
+2024-08-27 00:11:52,929 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179015 байт
+2024-08-27 00:11:52,950 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179015 байт
+2024-08-27 00:11:53,066 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178833 байт
+2024-08-27 00:11:53,069 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178833 байт
+2024-08-27 00:11:53,229 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178988 байт
+2024-08-27 00:11:53,230 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178988 байт
+2024-08-27 00:11:53,398 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178914 байт
+2024-08-27 00:11:53,400 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178914 байт
+2024-08-27 00:11:53,515 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178302 байт
+2024-08-27 00:11:53,516 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178302 байт
+2024-08-27 00:11:53,655 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178444 байт
+2024-08-27 00:11:53,656 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178444 байт
+2024-08-27 00:11:53,774 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178247 байт
+2024-08-27 00:11:53,776 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178247 байт
+2024-08-27 00:11:53,905 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177834 байт
+2024-08-27 00:11:53,907 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177834 байт
+2024-08-27 00:11:54,054 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177954 байт
+2024-08-27 00:11:54,055 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177954 байт
+2024-08-27 00:11:54,185 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177955 байт
+2024-08-27 00:11:54,187 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177955 байт
+2024-08-27 00:11:54,314 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177911 байт
+2024-08-27 00:11:54,315 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177911 байт
+2024-08-27 00:11:54,524 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178434 байт
+2024-08-27 00:11:54,528 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178434 байт
+2024-08-27 00:11:54,714 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178724 байт
+2024-08-27 00:11:54,719 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178724 байт
+2024-08-27 00:11:54,838 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178390 байт
+2024-08-27 00:11:54,841 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178390 байт
+2024-08-27 00:11:54,967 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178406 байт
+2024-08-27 00:11:54,969 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178406 байт
+2024-08-27 00:11:55,119 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178676 байт
+2024-08-27 00:11:55,122 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178676 байт
+2024-08-27 00:11:55,259 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179052 байт
+2024-08-27 00:11:55,260 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179052 байт
+2024-08-27 00:11:55,393 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179208 байт
+2024-08-27 00:11:55,394 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179208 байт
+2024-08-27 00:11:55,542 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178037 байт
+2024-08-27 00:11:55,543 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178037 байт
+2024-08-27 00:11:55,665 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180153 байт
+2024-08-27 00:11:55,666 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180153 байт
+2024-08-27 00:11:55,800 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179563 байт
+2024-08-27 00:11:55,803 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179563 байт
+2024-08-27 00:11:55,935 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179686 байт
+2024-08-27 00:11:55,936 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179686 байт
+2024-08-27 00:11:56,076 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180031 байт
+2024-08-27 00:11:56,077 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180031 байт
+2024-08-27 00:11:56,263 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180249 байт
+2024-08-27 00:11:56,265 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180249 байт
+2024-08-27 00:11:56,396 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180900 байт
+2024-08-27 00:11:56,397 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180900 байт
+2024-08-27 00:11:56,518 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181402 байт
+2024-08-27 00:11:56,525 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181402 байт
+2024-08-27 00:11:56,686 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181596 байт
+2024-08-27 00:11:56,690 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181596 байт
+2024-08-27 00:11:56,852 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 181121 байт
+2024-08-27 00:11:56,855 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 181121 байт
+2024-08-27 00:11:57,001 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 180879 байт
+2024-08-27 00:11:57,003 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 180879 байт
+2024-08-27 00:11:57,175 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178615 байт
+2024-08-27 00:11:57,176 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178615 байт
+2024-08-27 00:11:57,317 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178797 байт
+2024-08-27 00:11:57,319 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178797 байт
+2024-08-27 00:11:57,458 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178550 байт
+2024-08-27 00:11:57,460 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178550 байт
+2024-08-27 00:11:57,585 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178395 байт
+2024-08-27 00:11:57,586 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178395 байт
+2024-08-27 00:11:57,734 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178161 байт
+2024-08-27 00:11:57,738 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178161 байт
+2024-08-27 00:11:57,869 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178184 байт
+2024-08-27 00:11:57,871 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178184 байт
+2024-08-27 00:11:58,008 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178477 байт
+2024-08-27 00:11:58,009 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178477 байт
+2024-08-27 00:11:58,131 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178374 байт
+2024-08-27 00:11:58,135 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178374 байт
+2024-08-27 00:11:58,324 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178266 байт
+2024-08-27 00:11:58,336 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178266 байт
+2024-08-27 00:11:58,476 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 174656 байт
+2024-08-27 00:11:58,477 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 174656 байт
+2024-08-27 00:11:58,619 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 169280 байт
+2024-08-27 00:11:58,621 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 169280 байт
+2024-08-27 00:11:58,751 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 168810 байт
+2024-08-27 00:11:58,752 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 168810 байт
+2024-08-27 00:11:58,887 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 168931 байт
+2024-08-27 00:11:58,890 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 168931 байт
+2024-08-27 00:11:59,067 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 169044 байт
+2024-08-27 00:11:59,069 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 169044 байт
+2024-08-27 00:11:59,216 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175792 байт
+2024-08-27 00:11:59,217 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175792 байт
+2024-08-27 00:11:59,378 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177565 байт
+2024-08-27 00:11:59,401 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177565 байт
+2024-08-27 00:11:59,553 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177878 байт
+2024-08-27 00:11:59,555 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177878 байт
+2024-08-27 00:11:59,805 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178037 байт
+2024-08-27 00:11:59,883 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178037 байт
+2024-08-27 00:12:00,206 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167442 байт
+2024-08-27 00:12:00,300 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167442 байт
+2024-08-27 00:12:00,511 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163328 байт
+2024-08-27 00:12:00,513 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163328 байт
+2024-08-27 00:12:00,627 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163357 байт
+2024-08-27 00:12:00,629 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163357 байт
+2024-08-27 00:12:00,784 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163346 байт
+2024-08-27 00:12:00,785 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163346 байт
+2024-08-27 00:12:01,101 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167187 байт
+2024-08-27 00:12:01,103 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167187 байт
+2024-08-27 00:12:01,287 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167114 байт
+2024-08-27 00:12:01,289 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167114 байт
+2024-08-27 00:12:01,460 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167152 байт
+2024-08-27 00:12:01,462 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167152 байт
+2024-08-27 00:12:01,601 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167215 байт
+2024-08-27 00:12:01,620 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167215 байт
+2024-08-27 00:12:01,781 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167307 байт
+2024-08-27 00:12:01,783 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167307 байт
+2024-08-27 00:12:01,941 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167263 байт
+2024-08-27 00:12:01,943 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167263 байт
+2024-08-27 00:12:02,278 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 167256 байт
+2024-08-27 00:12:02,339 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 167256 байт
+2024-08-27 00:12:02,550 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 121826 байт
+2024-08-27 00:12:02,553 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 121826 байт
+2024-08-27 00:12:02,747 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 122110 байт
+2024-08-27 00:12:02,762 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 122110 байт
+2024-08-27 00:12:02,960 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 122111 байт
+2024-08-27 00:12:02,962 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 122111 байт
+2024-08-27 00:12:03,149 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 122103 байт
+2024-08-27 00:12:03,150 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 122103 байт
+2024-08-27 00:12:03,325 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175063 байт
+2024-08-27 00:12:03,327 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175063 байт
+2024-08-27 00:12:03,465 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175233 байт
+2024-08-27 00:12:03,470 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175233 байт
+2024-08-27 00:12:03,636 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175247 байт
+2024-08-27 00:12:03,637 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175247 байт
+2024-08-27 00:12:03,768 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175039 байт
+2024-08-27 00:12:03,769 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175039 байт
+2024-08-27 00:12:03,892 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175034 байт
+2024-08-27 00:12:03,893 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175034 байт
+2024-08-27 00:12:04,034 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175062 байт
+2024-08-27 00:12:04,035 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175062 байт
+2024-08-27 00:12:04,216 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175073 байт
+2024-08-27 00:12:04,218 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175073 байт
+2024-08-27 00:12:04,473 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175096 байт
+2024-08-27 00:12:04,481 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175096 байт
+2024-08-27 00:12:04,687 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175337 байт
+2024-08-27 00:12:04,698 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175337 байт
+2024-08-27 00:12:04,936 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175320 байт
+2024-08-27 00:12:04,941 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175320 байт
+2024-08-27 00:12:05,161 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175309 байт
+2024-08-27 00:12:05,165 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175309 байт
+2024-08-27 00:12:05,362 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175167 байт
+2024-08-27 00:12:05,372 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175167 байт
+2024-08-27 00:12:05,549 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175241 байт
+2024-08-27 00:12:05,550 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175241 байт
+2024-08-27 00:12:05,776 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 175253 байт
+2024-08-27 00:12:05,778 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 175253 байт
+2024-08-27 00:12:05,965 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 174909 байт
+2024-08-27 00:12:05,966 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 174909 байт
+2024-08-27 00:12:06,100 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178631 байт
+2024-08-27 00:12:06,101 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178631 байт
+2024-08-27 00:12:06,242 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177280 байт
+2024-08-27 00:12:06,244 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177280 байт
+2024-08-27 00:12:06,402 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177492 байт
+2024-08-27 00:12:06,404 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177492 байт
+2024-08-27 00:12:06,523 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177283 байт
+2024-08-27 00:12:06,524 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177283 байт
+2024-08-27 00:12:06,651 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177786 байт
+2024-08-27 00:12:06,652 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177786 байт
+2024-08-27 00:12:06,770 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177786 байт
+2024-08-27 00:12:06,771 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177786 байт
+2024-08-27 00:12:06,925 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177628 байт
+2024-08-27 00:12:06,927 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177628 байт
+2024-08-27 00:12:07,072 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177494 байт
+2024-08-27 00:12:07,074 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177494 байт
+2024-08-27 00:12:07,194 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176989 байт
+2024-08-27 00:12:07,195 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176989 байт
+2024-08-27 00:12:07,330 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177010 байт
+2024-08-27 00:12:07,332 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177010 байт
+2024-08-27 00:12:07,461 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177250 байт
+2024-08-27 00:12:07,462 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177250 байт
+2024-08-27 00:12:07,617 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177019 байт
+2024-08-27 00:12:07,618 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177019 байт
+2024-08-27 00:12:07,764 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177264 байт
+2024-08-27 00:12:07,765 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177264 байт
+2024-08-27 00:12:07,918 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177264 байт
+2024-08-27 00:12:07,920 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177264 байт
+2024-08-27 00:12:08,099 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177408 байт
+2024-08-27 00:12:08,120 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177408 байт
+2024-08-27 00:12:08,247 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177535 байт
+2024-08-27 00:12:08,248 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177535 байт
+2024-08-27 00:12:08,408 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177434 байт
+2024-08-27 00:12:08,410 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177434 байт
+2024-08-27 00:12:08,541 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177592 байт
+2024-08-27 00:12:08,542 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177592 байт
+2024-08-27 00:12:08,689 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177592 байт
+2024-08-27 00:12:08,690 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177592 байт
+2024-08-27 00:12:08,849 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177684 байт
+2024-08-27 00:12:08,861 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177684 байт
+2024-08-27 00:12:08,999 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178275 байт
+2024-08-27 00:12:09,001 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178275 байт
+2024-08-27 00:12:09,153 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178027 байт
+2024-08-27 00:12:09,154 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178027 байт
+2024-08-27 00:12:09,284 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178228 байт
+2024-08-27 00:12:09,285 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178228 байт
+2024-08-27 00:12:09,424 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178336 байт
+2024-08-27 00:12:09,425 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178336 байт
+2024-08-27 00:12:09,565 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178004 байт
+2024-08-27 00:12:09,566 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178004 байт
+2024-08-27 00:12:09,718 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178101 байт
+2024-08-27 00:12:09,718 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178101 байт
+2024-08-27 00:12:09,857 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178101 байт
+2024-08-27 00:12:09,859 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178101 байт
+2024-08-27 00:12:10,002 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178561 байт
+2024-08-27 00:12:10,003 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178561 байт
+2024-08-27 00:12:10,172 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178435 байт
+2024-08-27 00:12:10,173 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178435 байт
+2024-08-27 00:12:10,304 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178435 байт
+2024-08-27 00:12:10,305 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178435 байт
+2024-08-27 00:12:10,452 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178656 байт
+2024-08-27 00:12:10,453 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178656 байт
+2024-08-27 00:12:10,589 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178393 байт
+2024-08-27 00:12:10,590 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178393 байт
+2024-08-27 00:12:10,733 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178481 байт
+2024-08-27 00:12:10,735 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178481 байт
+2024-08-27 00:12:10,893 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178552 байт
+2024-08-27 00:12:10,896 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178552 байт
+2024-08-27 00:12:11,038 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178064 байт
+2024-08-27 00:12:11,039 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178064 байт
+2024-08-27 00:12:11,195 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177891 байт
+2024-08-27 00:12:11,197 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177891 байт
+2024-08-27 00:12:11,354 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177760 байт
+2024-08-27 00:12:11,361 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177760 байт
+2024-08-27 00:12:11,504 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177935 байт
+2024-08-27 00:12:11,505 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177935 байт
+2024-08-27 00:12:11,634 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178077 байт
+2024-08-27 00:12:11,636 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178077 байт
+2024-08-27 00:12:11,756 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178169 байт
+2024-08-27 00:12:11,757 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178169 байт
+2024-08-27 00:12:11,933 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177962 байт
+2024-08-27 00:12:11,934 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177962 байт
+2024-08-27 00:12:12,065 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178317 байт
+2024-08-27 00:12:12,066 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178317 байт
+2024-08-27 00:12:12,217 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178428 байт
+2024-08-27 00:12:12,227 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178428 байт
+2024-08-27 00:12:12,374 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178170 байт
+2024-08-27 00:12:12,375 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178170 байт
+2024-08-27 00:12:12,497 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178180 байт
+2024-08-27 00:12:12,498 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178180 байт
+2024-08-27 00:12:12,620 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178180 байт
+2024-08-27 00:12:12,621 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178180 байт
+2024-08-27 00:12:12,762 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178468 байт
+2024-08-27 00:12:12,777 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178468 байт
+2024-08-27 00:12:12,912 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178526 байт
+2024-08-27 00:12:12,913 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178526 байт
+2024-08-27 00:12:13,049 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178617 байт
+2024-08-27 00:12:13,051 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178617 байт
+2024-08-27 00:12:13,210 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178412 байт
+2024-08-27 00:12:13,211 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178412 байт
+2024-08-27 00:12:13,336 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178412 байт
+2024-08-27 00:12:13,338 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178412 байт
+2024-08-27 00:12:13,472 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178590 байт
+2024-08-27 00:12:13,473 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178590 байт
+2024-08-27 00:12:13,610 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178741 байт
+2024-08-27 00:12:13,610 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178741 байт
+2024-08-27 00:12:13,756 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178557 байт
+2024-08-27 00:12:13,757 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178557 байт
+2024-08-27 00:12:13,911 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178898 байт
+2024-08-27 00:12:13,911 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178898 байт
+2024-08-27 00:12:14,040 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179075 байт
+2024-08-27 00:12:14,042 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179075 байт
+2024-08-27 00:12:14,170 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179081 байт
+2024-08-27 00:12:14,171 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179081 байт
+2024-08-27 00:12:14,293 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178963 байт
+2024-08-27 00:12:14,294 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178963 байт
+2024-08-27 00:12:14,416 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178963 байт
+2024-08-27 00:12:14,417 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178963 байт
+2024-08-27 00:12:14,551 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179279 байт
+2024-08-27 00:12:14,552 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179279 байт
+2024-08-27 00:12:14,685 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179189 байт
+2024-08-27 00:12:14,693 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179189 байт
+2024-08-27 00:12:14,842 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 113406 байт
+2024-08-27 00:12:14,862 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 113406 байт
+2024-08-27 00:12:15,149 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 113326 байт
+2024-08-27 00:12:15,221 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 113326 байт
+2024-08-27 00:12:15,393 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157613 байт
+2024-08-27 00:12:15,395 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157613 байт
+2024-08-27 00:12:15,546 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 172236 байт
+2024-08-27 00:12:15,547 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 172236 байт
+2024-08-27 00:12:15,690 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 172445 байт
+2024-08-27 00:12:15,691 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 172445 байт
+2024-08-27 00:12:15,858 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176347 байт
+2024-08-27 00:12:15,859 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176347 байт
+2024-08-27 00:12:15,993 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 176624 байт
+2024-08-27 00:12:15,994 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 176624 байт
+2024-08-27 00:12:16,113 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177610 байт
+2024-08-27 00:12:16,116 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177610 байт
+2024-08-27 00:12:16,260 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177653 байт
+2024-08-27 00:12:16,261 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177653 байт
+2024-08-27 00:12:16,382 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177957 байт
+2024-08-27 00:12:16,384 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177957 байт
+2024-08-27 00:12:16,527 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177966 байт
+2024-08-27 00:12:16,528 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177966 байт
+2024-08-27 00:12:16,642 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 177994 байт
+2024-08-27 00:12:16,647 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 177994 байт
+2024-08-27 00:12:16,778 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178045 байт
+2024-08-27 00:12:16,779 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178045 байт
+2024-08-27 00:12:16,909 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178098 байт
+2024-08-27 00:12:16,910 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178098 байт
+2024-08-27 00:12:17,035 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 178262 байт
+2024-08-27 00:12:17,036 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 178262 байт
+2024-08-27 00:12:17,180 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179182 байт
+2024-08-27 00:12:17,181 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179182 байт
+2024-08-27 00:12:17,321 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179618 байт
+2024-08-27 00:12:17,322 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179618 байт
+2024-08-27 00:12:17,444 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179760 байт
+2024-08-27 00:12:17,446 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179760 байт
+2024-08-27 00:12:17,572 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179698 байт
+2024-08-27 00:12:17,573 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179698 байт
+2024-08-27 00:12:17,698 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179705 байт
+2024-08-27 00:12:17,700 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179705 байт
+2024-08-27 00:12:17,835 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179205 байт
+2024-08-27 00:12:17,836 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179205 байт
+2024-08-27 00:12:17,976 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179193 байт
+2024-08-27 00:12:17,978 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179193 байт
+2024-08-27 00:12:18,128 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179209 байт
+2024-08-27 00:12:18,129 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179209 байт
+2024-08-27 00:12:18,266 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179160 байт
+2024-08-27 00:12:18,268 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179160 байт
+2024-08-27 00:12:18,406 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179078 байт
+2024-08-27 00:12:18,408 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179078 байт
+2024-08-27 00:12:18,550 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179179 байт
+2024-08-27 00:12:18,552 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179179 байт
+2024-08-27 00:12:18,688 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179148 байт
+2024-08-27 00:12:18,689 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179148 байт
+2024-08-27 00:12:18,824 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179138 байт
+2024-08-27 00:12:18,835 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179138 байт
+2024-08-27 00:12:18,960 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179212 байт
+2024-08-27 00:12:18,962 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179212 байт
+2024-08-27 00:12:19,094 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179137 байт
+2024-08-27 00:12:19,095 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179137 байт
+2024-08-27 00:12:19,235 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179177 байт
+2024-08-27 00:12:19,241 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179177 байт
+2024-08-27 00:12:19,362 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179183 байт
+2024-08-27 00:12:19,364 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179183 байт
+2024-08-27 00:12:19,512 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179311 байт
+2024-08-27 00:12:19,513 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179311 байт
+2024-08-27 00:12:19,637 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179341 байт
+2024-08-27 00:12:19,640 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179341 байт
+2024-08-27 00:12:19,781 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179196 байт
+2024-08-27 00:12:19,783 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179196 байт
+2024-08-27 00:12:19,913 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179235 байт
+2024-08-27 00:12:19,914 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179235 байт
+2024-08-27 00:12:20,042 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179285 байт
+2024-08-27 00:12:20,043 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179285 байт
+2024-08-27 00:12:20,186 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179266 байт
+2024-08-27 00:12:20,188 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179266 байт
+2024-08-27 00:12:20,311 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179284 байт
+2024-08-27 00:12:20,312 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179284 байт
+2024-08-27 00:12:20,437 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179325 байт
+2024-08-27 00:12:20,440 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179325 байт
+2024-08-27 00:12:20,588 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179327 байт
+2024-08-27 00:12:20,589 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179327 байт
+2024-08-27 00:12:20,712 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179327 байт
+2024-08-27 00:12:20,713 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179327 байт
+2024-08-27 00:12:20,841 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179242 байт
+2024-08-27 00:12:20,844 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179242 байт
+2024-08-27 00:12:20,960 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179326 байт
+2024-08-27 00:12:20,961 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179326 байт
+2024-08-27 00:12:21,095 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179434 байт
+2024-08-27 00:12:21,097 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179434 байт
+2024-08-27 00:12:21,241 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179418 байт
+2024-08-27 00:12:21,242 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179418 байт
+2024-08-27 00:12:21,361 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179418 байт
+2024-08-27 00:12:21,363 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179418 байт
+2024-08-27 00:12:21,502 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179468 байт
+2024-08-27 00:12:21,503 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179468 байт
+2024-08-27 00:12:21,627 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179468 байт
+2024-08-27 00:12:21,628 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179468 байт
+2024-08-27 00:12:21,757 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179510 байт
+2024-08-27 00:12:21,758 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179510 байт
+2024-08-27 00:12:21,902 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179509 байт
+2024-08-27 00:12:21,903 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179509 байт
+2024-08-27 00:12:22,024 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179475 байт
+2024-08-27 00:12:22,028 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179475 байт
+2024-08-27 00:12:22,158 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179522 байт
+2024-08-27 00:12:22,160 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179522 байт
+2024-08-27 00:12:22,292 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179469 байт
+2024-08-27 00:12:22,295 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179469 байт
+2024-08-27 00:12:22,407 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179485 байт
+2024-08-27 00:12:22,408 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179485 байт
+2024-08-27 00:12:22,551 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179540 байт
+2024-08-27 00:12:22,553 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179540 байт
+2024-08-27 00:12:22,688 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179636 байт
+2024-08-27 00:12:22,689 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179636 байт
+2024-08-27 00:12:22,826 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179526 байт
+2024-08-27 00:12:22,827 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179526 байт
+2024-08-27 00:12:22,940 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179632 байт
+2024-08-27 00:12:22,941 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179632 байт
+2024-08-27 00:12:23,081 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179658 байт
+2024-08-27 00:12:23,083 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179658 байт
+2024-08-27 00:12:23,233 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179692 байт
+2024-08-27 00:12:23,235 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179692 байт
+2024-08-27 00:12:23,364 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179623 байт
+2024-08-27 00:12:23,366 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179623 байт
+2024-08-27 00:12:23,490 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179631 байт
+2024-08-27 00:12:23,491 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179631 байт
+2024-08-27 00:12:23,615 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179652 байт
+2024-08-27 00:12:23,618 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179652 байт
+2024-08-27 00:12:23,751 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179492 байт
+2024-08-27 00:12:23,752 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179492 байт
+2024-08-27 00:12:23,904 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179574 байт
+2024-08-27 00:12:23,906 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179574 байт
+2024-08-27 00:12:24,029 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179469 байт
+2024-08-27 00:12:24,031 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179469 байт
+2024-08-27 00:12:24,162 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179516 байт
+2024-08-27 00:12:24,164 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179516 байт
+2024-08-27 00:12:24,316 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179629 байт
+2024-08-27 00:12:24,318 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179629 байт
+2024-08-27 00:12:24,439 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179523 байт
+2024-08-27 00:12:24,441 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179523 байт
+2024-08-27 00:12:24,576 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179527 байт
+2024-08-27 00:12:24,577 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179527 байт
+2024-08-27 00:12:24,713 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179485 байт
+2024-08-27 00:12:24,714 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179485 байт
+2024-08-27 00:12:24,862 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179513 байт
+2024-08-27 00:12:24,896 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179513 байт
+2024-08-27 00:12:25,054 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179604 байт
+2024-08-27 00:12:25,055 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179604 байт
+2024-08-27 00:12:25,217 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179581 байт
+2024-08-27 00:12:25,218 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179581 байт
+2024-08-27 00:12:25,345 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179555 байт
+2024-08-27 00:12:25,347 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179555 байт
+2024-08-27 00:12:25,470 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179690 байт
+2024-08-27 00:12:25,472 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179690 байт
+2024-08-27 00:12:25,620 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179622 байт
+2024-08-27 00:12:25,621 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179622 байт
+2024-08-27 00:12:25,744 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179593 байт
+2024-08-27 00:12:25,746 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179593 байт
+2024-08-27 00:12:25,874 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179621 байт
+2024-08-27 00:12:25,876 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179621 байт
+2024-08-27 00:12:25,993 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179607 байт
+2024-08-27 00:12:25,994 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179607 байт
+2024-08-27 00:12:26,124 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179739 байт
+2024-08-27 00:12:26,125 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179739 байт
+2024-08-27 00:12:26,261 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179815 байт
+2024-08-27 00:12:26,262 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179815 байт
+2024-08-27 00:12:26,389 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179858 байт
+2024-08-27 00:12:26,389 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179858 байт
+2024-08-27 00:12:26,512 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179847 байт
+2024-08-27 00:12:26,514 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179847 байт
+2024-08-27 00:12:26,635 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179877 байт
+2024-08-27 00:12:26,636 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179877 байт
+2024-08-27 00:12:26,769 [13] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179862 байт
+2024-08-27 00:12:26,771 [10] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179862 байт
+2024-08-27 00:12:26,919 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179866 байт
+2024-08-27 00:12:26,920 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179866 байт
+2024-08-27 00:12:27,078 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 179886 байт
+2024-08-27 00:12:27,093 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 179886 байт
+2024-08-27 00:17:08,383 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:17:14,980 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:17:25,009 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:17:35,031 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:17:42,526 [1] INFO  BroadcastServer.MainWindow - Клиент подключен
+2024-08-27 00:17:42,657 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 125642 байт
+2024-08-27 00:17:42,668 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 125642 байт
+2024-08-27 00:17:42,840 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 125642 байт
+2024-08-27 00:17:42,848 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 125642 байт
+2024-08-27 00:17:43,069 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156114 байт
+2024-08-27 00:17:43,084 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156114 байт
+2024-08-27 00:17:43,270 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163273 байт
+2024-08-27 00:17:43,271 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163273 байт
+2024-08-27 00:17:43,404 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163243 байт
+2024-08-27 00:17:43,405 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163243 байт
+2024-08-27 00:17:43,580 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163362 байт
+2024-08-27 00:17:43,580 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163362 байт
+2024-08-27 00:17:43,742 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163269 байт
+2024-08-27 00:17:43,742 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163269 байт
+2024-08-27 00:17:44,332 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163287 байт
+2024-08-27 00:17:44,377 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163287 байт
+2024-08-27 00:17:44,541 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163055 байт
+2024-08-27 00:17:44,542 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163055 байт
+2024-08-27 00:17:44,680 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163055 байт
+2024-08-27 00:17:44,681 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163055 байт
+2024-08-27 00:17:44,825 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163066 байт
+2024-08-27 00:17:44,840 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163066 байт
+2024-08-27 00:17:44,989 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163170 байт
+2024-08-27 00:17:44,992 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163170 байт
+2024-08-27 00:17:45,042 [15] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:17:45,204 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163281 байт
+2024-08-27 00:17:45,207 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163281 байт
+2024-08-27 00:17:45,420 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163274 байт
+2024-08-27 00:17:45,421 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163274 байт
+2024-08-27 00:17:45,659 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163893 байт
+2024-08-27 00:17:45,662 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163893 байт
+2024-08-27 00:17:45,812 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163537 байт
+2024-08-27 00:17:45,813 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163537 байт
+2024-08-27 00:17:45,932 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163480 байт
+2024-08-27 00:17:45,933 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163480 байт
+2024-08-27 00:17:46,091 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 162554 байт
+2024-08-27 00:17:46,092 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 162554 байт
+2024-08-27 00:17:46,257 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 161967 байт
+2024-08-27 00:17:46,259 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 161967 байт
+2024-08-27 00:17:46,381 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 165438 байт
+2024-08-27 00:17:46,382 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 165438 байт
+2024-08-27 00:17:46,509 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 166365 байт
+2024-08-27 00:17:46,511 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 166365 байт
+2024-08-27 00:17:46,645 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 166469 байт
+2024-08-27 00:17:46,647 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 166469 байт
+2024-08-27 00:17:46,800 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 166580 байт
+2024-08-27 00:17:46,801 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 166580 байт
+2024-08-27 00:17:46,974 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 170029 байт
+2024-08-27 00:17:46,984 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 170029 байт
+2024-08-27 00:17:47,132 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 171513 байт
+2024-08-27 00:17:47,133 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 171513 байт
+2024-08-27 00:17:47,274 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 173009 байт
+2024-08-27 00:17:47,276 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 173009 байт
+2024-08-27 00:17:47,403 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 173987 байт
+2024-08-27 00:17:47,404 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 173987 байт
+2024-08-27 00:17:47,567 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 173009 байт
+2024-08-27 00:17:47,570 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 173009 байт
+2024-08-27 00:17:47,731 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 171485 байт
+2024-08-27 00:17:47,733 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 171485 байт
+2024-08-27 00:17:47,867 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 171406 байт
+2024-08-27 00:17:47,868 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 171406 байт
+2024-08-27 00:17:48,036 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 170446 байт
+2024-08-27 00:17:48,037 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 170446 байт
+2024-08-27 00:17:48,216 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 170673 байт
+2024-08-27 00:17:48,219 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 170673 байт
+2024-08-27 00:17:48,385 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 169167 байт
+2024-08-27 00:17:48,387 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 169167 байт
+2024-08-27 00:17:48,507 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 166940 байт
+2024-08-27 00:17:48,509 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 166940 байт
+2024-08-27 00:17:48,634 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 166493 байт
+2024-08-27 00:17:48,636 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 166493 байт
+2024-08-27 00:17:48,779 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 165686 байт
+2024-08-27 00:17:48,785 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 165686 байт
+2024-08-27 00:17:48,948 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 163464 байт
+2024-08-27 00:17:48,972 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 163464 байт
+2024-08-27 00:17:49,124 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 164726 байт
+2024-08-27 00:17:49,129 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 164726 байт
+2024-08-27 00:17:49,269 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160421 байт
+2024-08-27 00:17:49,270 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160421 байт
+2024-08-27 00:17:49,406 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160625 байт
+2024-08-27 00:17:49,407 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160625 байт
+2024-08-27 00:17:49,545 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159707 байт
+2024-08-27 00:17:49,547 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159707 байт
+2024-08-27 00:17:49,685 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159975 байт
+2024-08-27 00:17:49,687 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159975 байт
+2024-08-27 00:17:49,815 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159633 байт
+2024-08-27 00:17:49,816 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159633 байт
+2024-08-27 00:17:49,953 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159705 байт
+2024-08-27 00:17:49,954 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159705 байт
+2024-08-27 00:17:50,077 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159705 байт
+2024-08-27 00:17:50,078 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159705 байт
+2024-08-27 00:17:50,225 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159773 байт
+2024-08-27 00:17:50,226 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159773 байт
+2024-08-27 00:17:50,377 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159804 байт
+2024-08-27 00:17:50,378 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159804 байт
+2024-08-27 00:17:50,508 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159804 байт
+2024-08-27 00:17:50,509 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159804 байт
+2024-08-27 00:17:50,648 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159781 байт
+2024-08-27 00:17:50,649 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159781 байт
+2024-08-27 00:17:50,797 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159723 байт
+2024-08-27 00:17:50,814 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159723 байт
+2024-08-27 00:17:50,951 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159711 байт
+2024-08-27 00:17:50,952 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159711 байт
+2024-08-27 00:17:51,083 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159755 байт
+2024-08-27 00:17:51,084 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159755 байт
+2024-08-27 00:17:51,241 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159750 байт
+2024-08-27 00:17:51,242 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159750 байт
+2024-08-27 00:17:51,358 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159750 байт
+2024-08-27 00:17:51,359 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159750 байт
+2024-08-27 00:17:51,498 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159683 байт
+2024-08-27 00:17:51,499 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159683 байт
+2024-08-27 00:17:51,661 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159683 байт
+2024-08-27 00:17:51,668 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159683 байт
+2024-08-27 00:17:51,814 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159178 байт
+2024-08-27 00:17:51,816 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159178 байт
+2024-08-27 00:17:51,967 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160634 байт
+2024-08-27 00:17:51,968 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160634 байт
+2024-08-27 00:17:52,105 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160815 байт
+2024-08-27 00:17:52,108 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160815 байт
+2024-08-27 00:17:52,231 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159926 байт
+2024-08-27 00:17:52,233 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159926 байт
+2024-08-27 00:17:52,381 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159926 байт
+2024-08-27 00:17:52,384 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159926 байт
+2024-08-27 00:17:52,528 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159385 байт
+2024-08-27 00:17:52,531 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159385 байт
+2024-08-27 00:17:52,660 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159568 байт
+2024-08-27 00:17:52,661 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159568 байт
+2024-08-27 00:17:52,818 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159617 байт
+2024-08-27 00:17:52,820 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159617 байт
+2024-08-27 00:17:52,950 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159628 байт
+2024-08-27 00:17:52,952 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159628 байт
+2024-08-27 00:17:53,077 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159568 байт
+2024-08-27 00:17:53,078 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159568 байт
+2024-08-27 00:17:53,247 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159710 байт
+2024-08-27 00:17:53,262 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159710 байт
+2024-08-27 00:17:53,388 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159713 байт
+2024-08-27 00:17:53,389 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159713 байт
+2024-08-27 00:17:53,519 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159642 байт
+2024-08-27 00:17:53,525 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159642 байт
+2024-08-27 00:17:53,810 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159662 байт
+2024-08-27 00:17:53,817 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159662 байт
+2024-08-27 00:17:53,954 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 94490 байт
+2024-08-27 00:17:53,955 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 94490 байт
+2024-08-27 00:17:54,083 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 94490 байт
+2024-08-27 00:17:54,084 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 94490 байт
+2024-08-27 00:17:54,216 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 69689 байт
+2024-08-27 00:17:54,217 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 69689 байт
+2024-08-27 00:17:54,344 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 70026 байт
+2024-08-27 00:17:54,345 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 70026 байт
+2024-08-27 00:17:54,470 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 61673 байт
+2024-08-27 00:17:54,472 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 61673 байт
+2024-08-27 00:17:54,600 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 61675 байт
+2024-08-27 00:17:54,601 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 61675 байт
+2024-08-27 00:17:54,712 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59672 байт
+2024-08-27 00:17:54,713 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59672 байт
+2024-08-27 00:17:54,831 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59240 байт
+2024-08-27 00:17:54,832 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59240 байт
+2024-08-27 00:17:54,950 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58796 байт
+2024-08-27 00:17:54,951 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58796 байт
+2024-08-27 00:17:55,049 [14] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:17:55,066 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58785 байт
+2024-08-27 00:17:55,067 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58785 байт
+2024-08-27 00:17:55,219 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58633 байт
+2024-08-27 00:17:55,220 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58633 байт
+2024-08-27 00:17:55,350 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59005 байт
+2024-08-27 00:17:55,351 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59005 байт
+2024-08-27 00:17:55,483 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58591 байт
+2024-08-27 00:17:55,484 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58591 байт
+2024-08-27 00:17:55,622 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58607 байт
+2024-08-27 00:17:55,623 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58607 байт
+2024-08-27 00:17:55,743 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58630 байт
+2024-08-27 00:17:55,744 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58630 байт
+2024-08-27 00:17:55,887 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59142 байт
+2024-08-27 00:17:55,888 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59142 байт
+2024-08-27 00:17:55,997 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58642 байт
+2024-08-27 00:17:55,998 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58642 байт
+2024-08-27 00:17:56,119 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59116 байт
+2024-08-27 00:17:56,121 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59116 байт
+2024-08-27 00:17:56,245 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58772 байт
+2024-08-27 00:17:56,247 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58772 байт
+2024-08-27 00:17:56,359 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58772 байт
+2024-08-27 00:17:56,360 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58772 байт
+2024-08-27 00:17:56,480 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58695 байт
+2024-08-27 00:17:56,481 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58695 байт
+2024-08-27 00:17:56,603 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58695 байт
+2024-08-27 00:17:56,604 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58695 байт
+2024-08-27 00:17:56,730 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58783 байт
+2024-08-27 00:17:56,731 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58783 байт
+2024-08-27 00:17:56,855 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58698 байт
+2024-08-27 00:17:56,856 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58698 байт
+2024-08-27 00:17:56,986 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59165 байт
+2024-08-27 00:17:56,987 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59165 байт
+2024-08-27 00:17:57,114 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 59037 байт
+2024-08-27 00:17:57,115 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 59037 байт
+2024-08-27 00:17:57,246 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58765 байт
+2024-08-27 00:17:57,247 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58765 байт
+2024-08-27 00:17:57,495 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 58821 байт
+2024-08-27 00:17:57,497 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 58821 байт
+2024-08-27 00:17:57,693 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 124839 байт
+2024-08-27 00:17:57,697 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 124839 байт
+2024-08-27 00:17:57,926 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151142 байт
+2024-08-27 00:17:57,929 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151142 байт
+2024-08-27 00:17:58,092 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157243 байт
+2024-08-27 00:17:58,094 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157243 байт
+2024-08-27 00:17:58,267 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159207 байт
+2024-08-27 00:17:58,270 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159207 байт
+2024-08-27 00:17:58,400 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159620 байт
+2024-08-27 00:17:58,401 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159620 байт
+2024-08-27 00:17:58,546 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159651 байт
+2024-08-27 00:17:58,547 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159651 байт
+2024-08-27 00:17:58,762 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159651 байт
+2024-08-27 00:17:58,776 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159651 байт
+2024-08-27 00:17:58,952 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157753 байт
+2024-08-27 00:17:58,991 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157753 байт
+2024-08-27 00:17:59,126 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157893 байт
+2024-08-27 00:17:59,127 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157893 байт
+2024-08-27 00:17:59,282 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157723 байт
+2024-08-27 00:17:59,282 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157723 байт
+2024-08-27 00:17:59,439 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157642 байт
+2024-08-27 00:17:59,440 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157642 байт
+2024-08-27 00:17:59,575 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157653 байт
+2024-08-27 00:17:59,576 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157653 байт
+2024-08-27 00:17:59,702 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157653 байт
+2024-08-27 00:17:59,703 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157653 байт
+2024-08-27 00:17:59,860 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157660 байт
+2024-08-27 00:17:59,861 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157660 байт
+2024-08-27 00:18:00,018 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157660 байт
+2024-08-27 00:18:00,040 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157660 байт
+2024-08-27 00:18:00,196 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159940 байт
+2024-08-27 00:18:00,199 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159940 байт
+2024-08-27 00:18:00,338 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159940 байт
+2024-08-27 00:18:00,339 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159940 байт
+2024-08-27 00:18:00,468 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160082 байт
+2024-08-27 00:18:00,470 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160082 байт
+2024-08-27 00:18:00,596 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160054 байт
+2024-08-27 00:18:00,597 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160054 байт
+2024-08-27 00:18:00,744 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160113 байт
+2024-08-27 00:18:00,761 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160113 байт
+2024-08-27 00:18:00,881 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160089 байт
+2024-08-27 00:18:00,882 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160089 байт
+2024-08-27 00:18:01,013 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160052 байт
+2024-08-27 00:18:01,014 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160052 байт
+2024-08-27 00:18:01,133 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160052 байт
+2024-08-27 00:18:01,134 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160052 байт
+2024-08-27 00:18:01,277 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160004 байт
+2024-08-27 00:18:01,279 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160004 байт
+2024-08-27 00:18:01,397 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160011 байт
+2024-08-27 00:18:01,398 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160011 байт
+2024-08-27 00:18:01,534 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160048 байт
+2024-08-27 00:18:01,536 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160048 байт
+2024-08-27 00:18:01,679 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160049 байт
+2024-08-27 00:18:01,681 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160049 байт
+2024-08-27 00:18:01,796 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160047 байт
+2024-08-27 00:18:01,797 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160047 байт
+2024-08-27 00:18:01,924 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160047 байт
+2024-08-27 00:18:01,925 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160047 байт
+2024-08-27 00:18:02,058 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160838 байт
+2024-08-27 00:18:02,059 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160838 байт
+2024-08-27 00:18:02,191 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 160412 байт
+2024-08-27 00:18:02,192 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 160412 байт
+2024-08-27 00:18:02,357 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 158025 байт
+2024-08-27 00:18:02,358 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 158025 байт
+2024-08-27 00:18:02,486 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157717 байт
+2024-08-27 00:18:02,487 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157717 байт
+2024-08-27 00:18:02,621 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 158170 байт
+2024-08-27 00:18:02,623 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 158170 байт
+2024-08-27 00:18:02,773 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157995 байт
+2024-08-27 00:18:02,774 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157995 байт
+2024-08-27 00:18:02,893 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157547 байт
+2024-08-27 00:18:02,894 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157547 байт
+2024-08-27 00:18:03,038 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157409 байт
+2024-08-27 00:18:03,040 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157409 байт
+2024-08-27 00:18:03,185 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157441 байт
+2024-08-27 00:18:03,186 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157441 байт
+2024-08-27 00:18:03,317 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157419 байт
+2024-08-27 00:18:03,320 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157419 байт
+2024-08-27 00:18:03,463 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157419 байт
+2024-08-27 00:18:03,464 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157419 байт
+2024-08-27 00:18:03,589 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157419 байт
+2024-08-27 00:18:03,591 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157419 байт
+2024-08-27 00:18:03,715 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157506 байт
+2024-08-27 00:18:03,716 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157506 байт
+2024-08-27 00:18:03,855 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157459 байт
+2024-08-27 00:18:03,856 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157459 байт
+2024-08-27 00:18:03,987 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157459 байт
+2024-08-27 00:18:03,988 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157459 байт
+2024-08-27 00:18:04,126 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157441 байт
+2024-08-27 00:18:04,127 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157441 байт
+2024-08-27 00:18:04,263 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157410 байт
+2024-08-27 00:18:04,266 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157410 байт
+2024-08-27 00:18:04,379 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157410 байт
+2024-08-27 00:18:04,381 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157410 байт
+2024-08-27 00:18:04,548 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157406 байт
+2024-08-27 00:18:04,549 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157406 байт
+2024-08-27 00:18:04,681 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157406 байт
+2024-08-27 00:18:04,683 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157406 байт
+2024-08-27 00:18:04,825 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157430 байт
+2024-08-27 00:18:04,826 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157430 байт
+2024-08-27 00:18:04,992 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157430 байт
+2024-08-27 00:18:04,993 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157430 байт
+2024-08-27 00:18:05,065 [14] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:18:05,124 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157415 байт
+2024-08-27 00:18:05,125 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157415 байт
+2024-08-27 00:18:05,302 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157394 байт
+2024-08-27 00:18:05,303 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157394 байт
+2024-08-27 00:18:05,492 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157413 байт
+2024-08-27 00:18:05,494 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157413 байт
+2024-08-27 00:18:05,684 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156995 байт
+2024-08-27 00:18:05,685 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156995 байт
+2024-08-27 00:18:05,826 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156512 байт
+2024-08-27 00:18:05,848 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156512 байт
+2024-08-27 00:18:05,981 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156140 байт
+2024-08-27 00:18:05,982 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156140 байт
+2024-08-27 00:18:06,116 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156140 байт
+2024-08-27 00:18:06,117 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156140 байт
+2024-08-27 00:18:06,311 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156186 байт
+2024-08-27 00:18:06,313 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156186 байт
+2024-08-27 00:18:06,485 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156219 байт
+2024-08-27 00:18:06,495 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156219 байт
+2024-08-27 00:18:06,653 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156443 байт
+2024-08-27 00:18:06,653 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156443 байт
+2024-08-27 00:18:06,806 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156865 байт
+2024-08-27 00:18:06,808 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156865 байт
+2024-08-27 00:18:06,965 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 156993 байт
+2024-08-27 00:18:06,967 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 156993 байт
+2024-08-27 00:18:07,098 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157663 байт
+2024-08-27 00:18:07,100 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157663 байт
+2024-08-27 00:18:07,270 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157491 байт
+2024-08-27 00:18:07,271 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157491 байт
+2024-08-27 00:18:07,429 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 158215 байт
+2024-08-27 00:18:07,431 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 158215 байт
+2024-08-27 00:18:07,586 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157171 байт
+2024-08-27 00:18:07,587 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157171 байт
+2024-08-27 00:18:07,724 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157904 байт
+2024-08-27 00:18:07,739 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157904 байт
+2024-08-27 00:18:07,923 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157878 байт
+2024-08-27 00:18:07,936 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157878 байт
+2024-08-27 00:18:08,107 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 159296 байт
+2024-08-27 00:18:08,110 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 159296 байт
+2024-08-27 00:18:08,255 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 158116 байт
+2024-08-27 00:18:08,275 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 158116 байт
+2024-08-27 00:18:08,389 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157777 байт
+2024-08-27 00:18:08,390 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157777 байт
+2024-08-27 00:18:08,536 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157777 байт
+2024-08-27 00:18:08,537 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157777 байт
+2024-08-27 00:18:08,745 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157487 байт
+2024-08-27 00:18:08,750 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157487 байт
+2024-08-27 00:18:08,889 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157206 байт
+2024-08-27 00:18:08,891 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157206 байт
+2024-08-27 00:18:09,018 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157206 байт
+2024-08-27 00:18:09,019 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157206 байт
+2024-08-27 00:18:09,192 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157084 байт
+2024-08-27 00:18:09,193 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157084 байт
+2024-08-27 00:18:09,344 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157171 байт
+2024-08-27 00:18:09,351 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157171 байт
+2024-08-27 00:18:09,493 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157099 байт
+2024-08-27 00:18:09,496 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157099 байт
+2024-08-27 00:18:09,659 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157099 байт
+2024-08-27 00:18:09,663 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157099 байт
+2024-08-27 00:18:09,832 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157122 байт
+2024-08-27 00:18:09,836 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157122 байт
+2024-08-27 00:18:09,975 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157097 байт
+2024-08-27 00:18:09,976 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157097 байт
+2024-08-27 00:18:10,123 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157252 байт
+2024-08-27 00:18:10,124 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157252 байт
+2024-08-27 00:18:10,286 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157248 байт
+2024-08-27 00:18:10,290 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157248 байт
+2024-08-27 00:18:10,419 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157249 байт
+2024-08-27 00:18:10,421 [11] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157249 байт
+2024-08-27 00:18:10,552 [14] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 157275 байт
+2024-08-27 00:18:10,553 [12] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 157275 байт
+2024-08-27 00:18:10,852 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 149322 байт
+2024-08-27 00:18:10,882 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 149322 байт
+2024-08-27 00:18:11,104 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 126167 байт
+2024-08-27 00:18:11,386 [3] ERROR BroadcastServer.MainWindow - Ошибка при отправке данных
+System.IO.IOException: Не удается записать данные в транспортное соединение: Удаленный хост принудительно разорвал существующее подключение. ---> System.Net.Sockets.SocketException: Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   в System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   в System.IO.Stream.<>c.<BeginEndWriteAsync>b__53_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   в System.IO.Stream.BeginEndWriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   в System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   в BroadcastServer.Data.ScreenStreamer.<SendScreen>d__5.MoveNext() в C:\Users\Roman\source\repos\Broadcaster\BroadcastServer\Data\ScreenStreamer.cs:строка 56
+2024-08-27 00:18:11,416 [3] INFO  BroadcastServer.MainWindow - Клиент отключен
+2024-08-27 00:21:02,994 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:21:08,836 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:21:18,481 [1] INFO  BroadcastServer.MainWindow - Клиент подключен
+2024-08-27 00:21:18,614 [12] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 111926 байт
+2024-08-27 00:21:18,623 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 111926 байт
+2024-08-27 00:21:18,779 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 111823 байт
+2024-08-27 00:21:18,783 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 111823 байт
+2024-08-27 00:21:18,847 [4] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 2
+2024-08-27 00:21:18,951 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 139170 байт
+2024-08-27 00:21:18,959 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 139170 байт
+2024-08-27 00:21:19,108 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 148351 байт
+2024-08-27 00:21:19,115 [6] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 148351 байт
+2024-08-27 00:21:19,254 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150632 байт
+2024-08-27 00:21:19,268 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150632 байт
+2024-08-27 00:21:19,426 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151314 байт
+2024-08-27 00:21:19,429 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151314 байт
+2024-08-27 00:21:19,602 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151385 байт
+2024-08-27 00:21:19,604 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151385 байт
+2024-08-27 00:21:19,738 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151166 байт
+2024-08-27 00:21:19,741 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151166 байт
+2024-08-27 00:21:19,892 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151246 байт
+2024-08-27 00:21:19,893 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151246 байт
+2024-08-27 00:21:20,053 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151246 байт
+2024-08-27 00:21:20,053 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151246 байт
+2024-08-27 00:21:20,195 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151247 байт
+2024-08-27 00:21:20,195 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151247 байт
+2024-08-27 00:21:20,338 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151247 байт
+2024-08-27 00:21:20,339 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151247 байт
+2024-08-27 00:21:20,496 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151395 байт
+2024-08-27 00:21:20,497 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151395 байт
+2024-08-27 00:21:20,664 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151233 байт
+2024-08-27 00:21:20,670 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151233 байт
+2024-08-27 00:21:20,808 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151204 байт
+2024-08-27 00:21:20,809 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151204 байт
+2024-08-27 00:21:20,954 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151383 байт
+2024-08-27 00:21:20,955 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151383 байт
+2024-08-27 00:21:21,117 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151378 байт
+2024-08-27 00:21:21,118 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151378 байт
+2024-08-27 00:21:21,254 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 151235 байт
+2024-08-27 00:21:21,255 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 151235 байт
+2024-08-27 00:21:21,455 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 150975 байт
+2024-08-27 00:21:21,466 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 150975 байт
+2024-08-27 00:21:21,625 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152682 байт
+2024-08-27 00:21:21,627 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152682 байт
+2024-08-27 00:21:21,793 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 153729 байт
+2024-08-27 00:21:21,794 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 153729 байт
+2024-08-27 00:21:21,925 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154268 байт
+2024-08-27 00:21:21,927 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154268 байт
+2024-08-27 00:21:22,068 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 153237 байт
+2024-08-27 00:21:22,069 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 153237 байт
+2024-08-27 00:21:22,221 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 153511 байт
+2024-08-27 00:21:22,222 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 153511 байт
+2024-08-27 00:21:22,381 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 155457 байт
+2024-08-27 00:21:22,389 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 155457 байт
+2024-08-27 00:21:22,535 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 153336 байт
+2024-08-27 00:21:22,536 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 153336 байт
+2024-08-27 00:21:22,693 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152465 байт
+2024-08-27 00:21:22,696 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152465 байт
+2024-08-27 00:21:22,848 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152342 байт
+2024-08-27 00:21:22,849 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152342 байт
+2024-08-27 00:21:22,985 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152300 байт
+2024-08-27 00:21:22,987 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152300 байт
+2024-08-27 00:21:23,139 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152261 байт
+2024-08-27 00:21:23,140 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152261 байт
+2024-08-27 00:21:23,290 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152329 байт
+2024-08-27 00:21:23,292 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152329 байт
+2024-08-27 00:21:23,436 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152177 байт
+2024-08-27 00:21:23,437 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152177 байт
+2024-08-27 00:21:23,566 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152130 байт
+2024-08-27 00:21:23,571 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152130 байт
+2024-08-27 00:21:23,714 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152325 байт
+2024-08-27 00:21:23,716 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152325 байт
+2024-08-27 00:21:23,856 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152331 байт
+2024-08-27 00:21:23,857 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152331 байт
+2024-08-27 00:21:23,998 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152184 байт
+2024-08-27 00:21:23,999 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152184 байт
+2024-08-27 00:21:24,159 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152331 байт
+2024-08-27 00:21:24,162 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152331 байт
+2024-08-27 00:21:24,300 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152184 байт
+2024-08-27 00:21:24,301 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152184 байт
+2024-08-27 00:21:24,448 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152268 байт
+2024-08-27 00:21:24,449 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152268 байт
+2024-08-27 00:21:24,602 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152185 байт
+2024-08-27 00:21:24,603 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152185 байт
+2024-08-27 00:21:24,735 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152268 байт
+2024-08-27 00:21:24,736 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152268 байт
+2024-08-27 00:21:24,902 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152185 байт
+2024-08-27 00:21:24,903 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152185 байт
+2024-08-27 00:21:25,072 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152205 байт
+2024-08-27 00:21:25,073 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152205 байт
+2024-08-27 00:21:25,214 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152270 байт
+2024-08-27 00:21:25,216 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152270 байт
+2024-08-27 00:21:25,346 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152296 байт
+2024-08-27 00:21:25,347 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152296 байт
+2024-08-27 00:21:25,493 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152362 байт
+2024-08-27 00:21:25,495 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152362 байт
+2024-08-27 00:21:25,646 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152189 байт
+2024-08-27 00:21:25,647 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152189 байт
+2024-08-27 00:21:25,787 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152328 байт
+2024-08-27 00:21:25,788 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152328 байт
+2024-08-27 00:21:25,949 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152254 байт
+2024-08-27 00:21:25,950 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152254 байт
+2024-08-27 00:21:26,083 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152335 байт
+2024-08-27 00:21:26,085 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152335 байт
+2024-08-27 00:21:26,235 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152264 байт
+2024-08-27 00:21:26,237 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152264 байт
+2024-08-27 00:21:26,391 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152131 байт
+2024-08-27 00:21:26,392 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152131 байт
+2024-08-27 00:21:26,547 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152323 байт
+2024-08-27 00:21:26,550 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152323 байт
+2024-08-27 00:21:26,701 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152128 байт
+2024-08-27 00:21:26,703 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152128 байт
+2024-08-27 00:21:26,838 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152267 байт
+2024-08-27 00:21:26,839 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152267 байт
+2024-08-27 00:21:26,993 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152317 байт
+2024-08-27 00:21:26,994 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152317 байт
+2024-08-27 00:21:27,134 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152317 байт
+2024-08-27 00:21:27,135 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152317 байт
+2024-08-27 00:21:27,284 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152310 байт
+2024-08-27 00:21:27,285 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152310 байт
+2024-08-27 00:21:27,448 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152169 байт
+2024-08-27 00:21:27,449 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152169 байт
+2024-08-27 00:21:27,585 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152270 байт
+2024-08-27 00:21:27,586 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152270 байт
+2024-08-27 00:21:27,744 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152181 байт
+2024-08-27 00:21:27,745 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152181 байт
+2024-08-27 00:21:27,896 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152185 байт
+2024-08-27 00:21:27,897 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152185 байт
+2024-08-27 00:21:28,031 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152268 байт
+2024-08-27 00:21:28,032 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152268 байт
+2024-08-27 00:21:28,164 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152320 байт
+2024-08-27 00:21:28,164 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152320 байт
+2024-08-27 00:21:28,312 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152331 байт
+2024-08-27 00:21:28,313 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152331 байт
+2024-08-27 00:21:28,451 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152184 байт
+2024-08-27 00:21:28,454 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152184 байт
+2024-08-27 00:21:28,601 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152173 байт
+2024-08-27 00:21:28,602 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152173 байт
+2024-08-27 00:21:28,766 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152175 байт
+2024-08-27 00:21:28,767 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152175 байт
+2024-08-27 00:21:28,862 [5] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 66
+2024-08-27 00:21:28,914 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152268 байт
+2024-08-27 00:21:28,915 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152268 байт
+2024-08-27 00:21:29,046 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152185 байт
+2024-08-27 00:21:29,047 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152185 байт
+2024-08-27 00:21:29,199 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152341 байт
+2024-08-27 00:21:29,200 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152341 байт
+2024-08-27 00:21:29,330 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152173 байт
+2024-08-27 00:21:29,331 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152173 байт
+2024-08-27 00:21:29,496 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152250 байт
+2024-08-27 00:21:29,499 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152250 байт
+2024-08-27 00:21:29,648 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152124 байт
+2024-08-27 00:21:29,651 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152124 байт
+2024-08-27 00:21:29,785 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152491 байт
+2024-08-27 00:21:29,786 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152491 байт
+2024-08-27 00:21:29,926 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152247 байт
+2024-08-27 00:21:29,928 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152247 байт
+2024-08-27 00:21:30,075 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152271 байт
+2024-08-27 00:21:30,076 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152271 байт
+2024-08-27 00:21:30,214 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152218 байт
+2024-08-27 00:21:30,215 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152218 байт
+2024-08-27 00:21:30,348 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152286 байт
+2024-08-27 00:21:30,350 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152286 байт
+2024-08-27 00:21:30,506 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152434 байт
+2024-08-27 00:21:30,507 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152434 байт
+2024-08-27 00:21:30,650 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152231 байт
+2024-08-27 00:21:30,652 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152231 байт
+2024-08-27 00:21:30,797 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152437 байт
+2024-08-27 00:21:30,799 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152437 байт
+2024-08-27 00:21:30,957 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 152929 байт
+2024-08-27 00:21:30,958 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 152929 байт
+2024-08-27 00:21:31,098 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 153941 байт
+2024-08-27 00:21:31,099 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 153941 байт
+2024-08-27 00:21:31,251 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154272 байт
+2024-08-27 00:21:31,252 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154272 байт
+2024-08-27 00:21:31,397 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154358 байт
+2024-08-27 00:21:31,399 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154358 байт
+2024-08-27 00:21:31,535 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154358 байт
+2024-08-27 00:21:31,538 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154358 байт
+2024-08-27 00:21:31,676 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154420 байт
+2024-08-27 00:21:31,678 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154420 байт
+2024-08-27 00:21:31,825 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154418 байт
+2024-08-27 00:21:31,825 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154418 байт
+2024-08-27 00:21:31,960 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154401 байт
+2024-08-27 00:21:31,961 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154401 байт
+2024-08-27 00:21:32,110 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154242 байт
+2024-08-27 00:21:32,110 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154242 байт
+2024-08-27 00:21:32,253 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154243 байт
+2024-08-27 00:21:32,255 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154243 байт
+2024-08-27 00:21:32,391 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154352 байт
+2024-08-27 00:21:32,392 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154352 байт
+2024-08-27 00:21:32,526 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154400 байт
+2024-08-27 00:21:32,528 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154400 байт
+2024-08-27 00:21:32,674 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154394 байт
+2024-08-27 00:21:32,674 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154394 байт
+2024-08-27 00:21:32,808 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154379 байт
+2024-08-27 00:21:32,809 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154379 байт
+2024-08-27 00:21:32,949 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154244 байт
+2024-08-27 00:21:32,951 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154244 байт
+2024-08-27 00:21:33,094 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154394 байт
+2024-08-27 00:21:33,098 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154394 байт
+2024-08-27 00:21:33,249 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154246 байт
+2024-08-27 00:21:33,250 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154246 байт
+2024-08-27 00:21:33,377 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154192 байт
+2024-08-27 00:21:33,378 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154192 байт
+2024-08-27 00:21:33,536 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154399 байт
+2024-08-27 00:21:33,537 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154399 байт
+2024-08-27 00:21:33,676 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154192 байт
+2024-08-27 00:21:33,677 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154192 байт
+2024-08-27 00:21:33,829 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154193 байт
+2024-08-27 00:21:33,829 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154193 байт
+2024-08-27 00:21:33,989 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:33,990 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:34,127 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154398 байт
+2024-08-27 00:21:34,135 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154398 байт
+2024-08-27 00:21:34,282 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:34,284 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:34,432 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154447 байт
+2024-08-27 00:21:34,433 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154447 байт
+2024-08-27 00:21:34,559 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154418 байт
+2024-08-27 00:21:34,563 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154418 байт
+2024-08-27 00:21:34,699 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154418 байт
+2024-08-27 00:21:34,703 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154418 байт
+2024-08-27 00:21:34,852 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154455 байт
+2024-08-27 00:21:34,853 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154455 байт
+2024-08-27 00:21:35,002 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154270 байт
+2024-08-27 00:21:35,005 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154270 байт
+2024-08-27 00:21:35,144 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154383 байт
+2024-08-27 00:21:35,146 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154383 байт
+2024-08-27 00:21:35,287 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154390 байт
+2024-08-27 00:21:35,289 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154390 байт
+2024-08-27 00:21:35,422 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154228 байт
+2024-08-27 00:21:35,423 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154228 байт
+2024-08-27 00:21:35,562 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154351 байт
+2024-08-27 00:21:35,564 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154351 байт
+2024-08-27 00:21:35,720 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154397 байт
+2024-08-27 00:21:35,721 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154397 байт
+2024-08-27 00:21:35,858 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154232 байт
+2024-08-27 00:21:35,860 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154232 байт
+2024-08-27 00:21:35,990 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154389 байт
+2024-08-27 00:21:35,991 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154389 байт
+2024-08-27 00:21:36,158 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154379 байт
+2024-08-27 00:21:36,159 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154379 байт
+2024-08-27 00:21:36,304 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154382 байт
+2024-08-27 00:21:36,305 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154382 байт
+2024-08-27 00:21:36,442 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154365 байт
+2024-08-27 00:21:36,444 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154365 байт
+2024-08-27 00:21:36,591 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154365 байт
+2024-08-27 00:21:36,593 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154365 байт
+2024-08-27 00:21:36,723 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154453 байт
+2024-08-27 00:21:36,725 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154453 байт
+2024-08-27 00:21:36,856 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154271 байт
+2024-08-27 00:21:36,857 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154271 байт
+2024-08-27 00:21:37,005 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154408 байт
+2024-08-27 00:21:37,006 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154408 байт
+2024-08-27 00:21:37,144 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154389 байт
+2024-08-27 00:21:37,145 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154389 байт
+2024-08-27 00:21:37,293 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154244 байт
+2024-08-27 00:21:37,293 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154244 байт
+2024-08-27 00:21:37,436 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154188 байт
+2024-08-27 00:21:37,437 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154188 байт
+2024-08-27 00:21:37,573 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154193 байт
+2024-08-27 00:21:37,574 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154193 байт
+2024-08-27 00:21:37,705 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154379 байт
+2024-08-27 00:21:37,707 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154379 байт
+2024-08-27 00:21:37,868 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154330 байт
+2024-08-27 00:21:37,869 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154330 байт
+2024-08-27 00:21:38,012 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154192 байт
+2024-08-27 00:21:38,013 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154192 байт
+2024-08-27 00:21:38,168 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154193 байт
+2024-08-27 00:21:38,169 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154193 байт
+2024-08-27 00:21:38,316 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:38,317 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:38,455 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154398 байт
+2024-08-27 00:21:38,456 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154398 байт
+2024-08-27 00:21:38,589 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:38,591 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:38,734 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:38,735 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:38,876 [15] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 69
+2024-08-27 00:21:38,876 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154398 байт
+2024-08-27 00:21:38,878 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154398 байт
+2024-08-27 00:21:39,033 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154398 байт
+2024-08-27 00:21:39,034 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154398 байт
+2024-08-27 00:21:39,198 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:39,199 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:39,349 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154393 байт
+2024-08-27 00:21:39,350 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154393 байт
+2024-08-27 00:21:39,490 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154398 байт
+2024-08-27 00:21:39,492 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154398 байт
+2024-08-27 00:21:39,631 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154366 байт
+2024-08-27 00:21:39,633 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154366 байт
+2024-08-27 00:21:39,770 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154413 байт
+2024-08-27 00:21:39,771 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154413 байт
+2024-08-27 00:21:39,908 [3] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154190 байт
+2024-08-27 00:21:39,909 [13] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154190 байт
+2024-08-27 00:21:40,064 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154380 байт
+2024-08-27 00:21:40,065 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154380 байт
+2024-08-27 00:21:40,219 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154231 байт
+2024-08-27 00:21:40,220 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154231 байт
+2024-08-27 00:21:40,354 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154392 байт
+2024-08-27 00:21:40,355 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154392 байт
+2024-08-27 00:21:40,498 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154331 байт
+2024-08-27 00:21:40,499 [5] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154331 байт
+2024-08-27 00:21:40,620 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154331 байт
+2024-08-27 00:21:40,621 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154331 байт
+2024-08-27 00:21:40,759 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154236 байт
+2024-08-27 00:21:40,762 [14] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154236 байт
+2024-08-27 00:21:40,908 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154228 байт
+2024-08-27 00:21:40,909 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154228 байт
+2024-08-27 00:21:41,065 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154429 байт
+2024-08-27 00:21:41,066 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154429 байт
+2024-08-27 00:21:41,216 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154416 байт
+2024-08-27 00:21:41,217 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154416 байт
+2024-08-27 00:21:41,359 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154401 байт
+2024-08-27 00:21:41,360 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154401 байт
+2024-08-27 00:21:41,485 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154191 байт
+2024-08-27 00:21:41,486 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154191 байт
+2024-08-27 00:21:41,624 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154232 байт
+2024-08-27 00:21:41,626 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154232 байт
+2024-08-27 00:21:41,765 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154452 байт
+2024-08-27 00:21:41,766 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154452 байт
+2024-08-27 00:21:41,906 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154347 байт
+2024-08-27 00:21:41,907 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154347 байт
+2024-08-27 00:21:42,038 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154370 байт
+2024-08-27 00:21:42,040 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154370 байт
+2024-08-27 00:21:42,189 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154204 байт
+2024-08-27 00:21:42,191 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154204 байт
+2024-08-27 00:21:42,332 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154330 байт
+2024-08-27 00:21:42,333 [4] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154330 байт
+2024-08-27 00:21:42,472 [15] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154237 байт
+2024-08-27 00:21:42,473 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154237 байт
+2024-08-27 00:21:42,630 [5] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154188 байт
+2024-08-27 00:21:42,632 [3] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154188 байт
+2024-08-27 00:21:42,771 [4] DEBUG BroadcastServer.MainWindow - Размер файла для отправки: 154191 байт
+2024-08-27 00:21:42,772 [15] INFO  BroadcastServer.MainWindow - Файл отправлен, размер: 154191 байт
+2024-08-27 00:23:22,840 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:23:28,190 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:23:45,491 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:25:22,616 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
+2024-08-27 00:25:31,930 [3] INFO  BroadcastServer.MainWindow - Отправлено кадров за последние 10 секунд: 0
+2024-08-27 00:34:27,539 [1] INFO  BroadcastServer.MainWindow - Сервер запущен и ожидает подключения...
