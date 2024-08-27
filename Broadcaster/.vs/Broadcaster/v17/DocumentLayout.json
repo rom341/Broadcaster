@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\",
+  "WorkspaceRootPath": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|c:\\users\\roman\\source\\repos\\broadcaster\\broadcastserver\\data\\screenstreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|solutionrelative:broadcastserver\\data\\screenstreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|C:\\Users\\Roman\\source\\repos\\Broadcaster\\broadcastclient\\data\\screenreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\data\\screenreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|C:\\Users\\Roman\\source\\repos\\Broadcaster\\broadcastclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|C:\\Users\\Roman\\source\\repos\\Broadcaster\\broadcastserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|D:\\Projects\\C#\\Broadcaster\\Broadcaster\\broadcastserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|solutionrelative:broadcastserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|c:\\users\\roman\\source\\repos\\broadcaster\\broadcastclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|d:\\projects\\c#\\broadcaster\\broadcaster\\broadcastserver\\data\\screenstreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|solutionrelative:broadcastserver\\data\\screenstreamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|c:\\users\\roman\\source\\repos\\broadcaster\\broadcastserver\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|solutionrelative:broadcastserver\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|C:\\Users\\Roman\\source\\repos\\Broadcaster\\broadcastclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|C:\\Users\\Roman\\source\\repos\\Broadcaster\\broadcastserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|D:\\Projects\\C#\\Broadcaster\\Broadcaster\\broadcastserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B88E6128-A42D-41B8-A6D4-C8C9AB1407ED}|BroadcastServer\\BroadcastServer.csproj|solutionrelative:broadcastserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|D:\\Projects\\C#\\Broadcaster\\Broadcaster\\broadcastclient\\data\\screenreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\data\\screenreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|D:\\Projects\\C#\\Broadcaster\\Broadcaster\\broadcastclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|D:\\Projects\\C#\\Broadcaster\\Broadcaster\\broadcastclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5F743EA-F62A-4A5B-BDA5-1327E323AD2A}|BroadcastClient\\BroadcastClient.csproj|solutionrelative:broadcastclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,50 +42,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\log4net.config",
-              "RelativeDocumentMoniker": "BroadcastClient\\log4net.config",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\log4net.config",
-              "RelativeToolTip": "BroadcastClient\\log4net.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-26T20:00:19.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\App.xaml.cs",
-              "RelativeDocumentMoniker": "BroadcastServer\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\App.xaml.cs",
-              "RelativeToolTip": "BroadcastServer\\App.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:51:34.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ScreenReceiver.cs",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\Data\\ScreenReceiver.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\Data\\ScreenReceiver.cs",
               "RelativeDocumentMoniker": "BroadcastClient\\Data\\ScreenReceiver.cs",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\Data\\ScreenReceiver.cs",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\Data\\ScreenReceiver.cs",
               "RelativeToolTip": "BroadcastClient\\Data\\ScreenReceiver.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAuwF8AAAAJAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAjwEYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T18:51:25.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "BroadcastClient\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\MainWindow.xaml",
               "RelativeToolTip": "BroadcastClient\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-26T18:48:13.767Z",
@@ -101,37 +67,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BroadcastClient\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastClient\\MainWindow.xaml.cs",
               "RelativeToolTip": "BroadcastClient\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAqwCYAAAAvAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAASwB8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T18:48:13.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ScreenStreamer.cs",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\Data\\ScreenStreamer.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\Data\\ScreenStreamer.cs",
               "RelativeDocumentMoniker": "BroadcastServer\\Data\\ScreenStreamer.cs",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\Data\\ScreenStreamer.cs",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\Data\\ScreenStreamer.cs",
               "RelativeToolTip": "BroadcastServer\\Data\\ScreenStreamer.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGIAAAAUAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAuwFMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T18:43:39.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "BroadcastServer\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\MainWindow.xaml",
               "RelativeToolTip": "BroadcastServer\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-26T18:42:21.098Z",
@@ -139,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BroadcastServer\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastServer\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\C#\\Broadcaster\\Broadcaster\\BroadcastServer\\MainWindow.xaml.cs",
               "RelativeToolTip": "BroadcastServer\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwC4AAAAYAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T18:42:18.007Z",
               "EditorCaption": ""

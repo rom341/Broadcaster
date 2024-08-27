@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BroadcastClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="645" Width="1082">
     <Grid>
         <Image Name="DisplayImage" HorizontalAlignment="Left" Height="394" VerticalAlignment="Top" Width="789" Stretch="Fill"/>
         <Button Content="Start receiving" HorizontalAlignment="Left" Margin="301,399,0,0" VerticalAlignment="Top" Height="35" Width="201" Click="Button_Click"/>
-        <TextBox Name="ServerIpInput" HorizontalAlignment="Left" Margin="68,399,0,0" TextWrapping="Wrap" Text="Ip of server" VerticalAlignment="Top" Width="228" Height="35"/>
-
+        <TextBox Name="ServerIpInput" HorizontalAlignment="Left" Margin="68,399,0,0" TextWrapping="Wrap" Text="5000" VerticalAlignment="Top" Width="228" Height="35"/>
+        
     </Grid>
 </Window>

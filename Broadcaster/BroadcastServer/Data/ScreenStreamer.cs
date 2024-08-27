@@ -1,12 +1,10 @@
 ﻿using log4net;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
-using System.Linq;
+using System.Net;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -15,66 +13,82 @@ namespace BroadcastServer.Data
     public class ScreenStreamer
     {
         private readonly ILog log;
-        private int frameCount = 0;
-        private readonly object lockObj = new object();
+        private UdpClient udpClient;
+        private IPEndPoint clientEndPoint;
 
         public ScreenStreamer(ILog log)
         {
             this.log = log;
-            StartLoggingTimer();
         }
 
         private Bitmap CaptureScreen()
         {
-            var screenSize = new Size(1920, 1080);
-            var bitmap = new Bitmap(screenSize.Width, screenSize.Height);
+            var screenSize = new Size(640, 480);
+            var bitmap = new Bitmap(screenSize.Width, screenSize.Height, PixelFormat.Format32bppPArgb);
+
             using (var g = Graphics.FromImage(bitmap))
             {
                 g.CopyFromScreen(Point.Empty, Point.Empty, screenSize);
             }
+            log.Info($"Captured screen in format: {bitmap.PixelFormat}");
             return bitmap;
         }
 
-        public async void SendScreen(TcpClient client)
+        private byte[] GetCompressedByteArray(Bitmap image)
         {
-            NetworkStream stream = client.GetStream();
-            try
+            using (MemoryStream ms = new MemoryStream())
             {
-                while (true)
+                var encoderParameters = new EncoderParameters(1);
+                encoderParameters.Param[0] = new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, 50L);
+                ImageCodecInfo jpegEncoder = GetEncoder(ImageFormat.Jpeg);
+                image.Save(ms, jpegEncoder, encoderParameters);
+                return ms.ToArray();
+            }
+        }
+        private byte[] GetByteArray(Bitmap image)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, ImageFormat.Png);
+                return ms.ToArray();
+            }
+        }
+
+        public async Task SendScreenAsync(string clientIp, int port)
+        {
+            udpClient = new UdpClient();
+            clientEndPoint = new IPEndPoint(IPAddress.Parse(clientIp), port);
+
+            int frameCount = 1;
+            var timer = new Timer(state =>
+            {
+                log.Info($"Frames sent in the last 10 seconds: {frameCount}");
+                frameCount = 0;
+            }, null, 10000, 10000);
+
+            while (true)
+            {
+                try
                 {
                     Bitmap screen = CaptureScreen();
-                    using (MemoryStream ms = new MemoryStream())
-                    {
-                        var encoderParameters = new EncoderParameters(1);
-                        encoderParameters.Param[0] = new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, 50L);
-                        ImageCodecInfo jpegEncoder = GetEncoder(ImageFormat.Jpeg);
-                        screen.Save(ms, jpegEncoder, encoderParameters);
+                    byte[] buffer = GetByteArray(screen);
 
-                        byte[] buffer = ms.ToArray();
-                        log.Debug($"Размер файла для отправки: {buffer.Length} байт");
+                    log.Debug($"Size of the image to be sent: {buffer.Length} bytes");
 
-                        await stream.WriteAsync(BitConverter.GetBytes(buffer.Length), 0, sizeof(int));
-                        await stream.WriteAsync(buffer, 0, buffer.Length);
-                        await stream.FlushAsync();
+                    await udpClient.SendAsync(buffer, buffer.Length, clientEndPoint);
 
-                        log.Info($"Файл отправлен, размер: {buffer.Length} байт");
+                    log.Info($"File sent, size: {buffer.Length} bytes");
 
-                        lock (lockObj)
-                        {
-                            ++frameCount;
-                        }
-                        await Task.Delay(50); // Задержка для уменьшения нагрузки
-                    }
+                    frameCount++;
+
+                    await Task.Delay(30); // Delay to reduce load
                 }
-            }
-            catch (Exception ex)
-            {
-                log.Error("Ошибка при отправке данных", ex);
-            }
-            finally
-            {
-                client.Close();
-                log.Info("Клиент отключен");
+                catch (Exception ex)
+                {
+                    log.Error("Error sending data", ex);
+                    break;
+                }
+                udpClient.Dispose();
             }
         }
 
@@ -90,25 +104,5 @@ namespace BroadcastServer.Data
             }
             return null;
         }
-        private void StartLoggingTimer()
-        {
-            Task.Run(async () =>
-            {
-                while (true)
-                {
-                    await Task.Delay(10000); // 10 секунд
-
-                    int framesSent;
-                    lock (lockObj)
-                    {
-                        framesSent = frameCount;
-                        frameCount = 0; // Сброс счетчика после записи
-                    }
-
-                    log.Info($"Отправлено кадров за последние 10 секунд: {framesSent}");
-                }
-            });
-        }
     }
 }
-
