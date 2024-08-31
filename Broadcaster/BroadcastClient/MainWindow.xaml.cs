@@ -5,10 +5,6 @@ using System.Windows;
 using log4net;
 using log4net.Config;
 using System.IO;
-using BroadcastClient.Data;
-using System.Windows.Media.Imaging;
-using System.Windows.Media;
-using System.Drawing;
 
 namespace BroadcastClient
 {
@@ -16,7 +12,6 @@ namespace BroadcastClient
     {
         private readonly ILog log;
         private readonly ScreenReceiver screenReceiver;
-        private WriteableBitmap writeableBitmap;
 
         public MainWindow()
         {
@@ -29,8 +24,12 @@ namespace BroadcastClient
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            string serverIP = ServerIpInput.Text;
+            int serverPort = int.Parse(ServerPortInput.Text);
+            int clientPort = serverPort;//serverPort + 1;
+
             screenReceiver.StopReceiving();
-            await screenReceiver.StartReceiving(int.Parse(ServerIpInput.Text));
+            screenReceiver.StartReceiving(serverIP, serverPort, clientPort);
         }
     }
 }
