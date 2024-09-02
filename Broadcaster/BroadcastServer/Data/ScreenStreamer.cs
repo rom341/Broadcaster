@@ -15,6 +15,7 @@ namespace BroadcastServer.Data
         private ILog logger;
         private UdpClient udpClient;
         private IPEndPoint broadcastEndPoint;
+        FrequencyCounter frequencyCounter;
         private Thread streamingThread;
         private bool isRunning = false;
 
@@ -30,6 +31,10 @@ namespace BroadcastServer.Data
         {
             udpClient = new UdpClient();
             broadcastEndPoint = new IPEndPoint(IPAddress.Broadcast, port);
+            frequencyCounter = new FrequencyCounter(1, () => 
+            {
+                logger.Info($"FPS: {frequencyCounter.GetFrequency()}");
+            });
             udpClient.EnableBroadcast = true;
             this.logger = logger;
         }
@@ -43,6 +48,7 @@ namespace BroadcastServer.Data
                 streamingThread = new Thread(StreamScreen);
                 streamingThread.IsBackground = true;
                 streamingThread.Start();
+                frequencyCounter.Start();
             }
         }
 
@@ -54,6 +60,7 @@ namespace BroadcastServer.Data
                 isRunning = false;
                 udpClient.Close();
                 streamingThread?.Join();
+                frequencyCounter.Stop();
             }
         }
 
@@ -68,7 +75,8 @@ namespace BroadcastServer.Data
 
                     SendImageInChunks(byteArrayFromImage);
 
-                    Thread.Sleep(interval);
+                    frequencyCounter.IncrementCounter();
+                    //Thread.Sleep(5);
                 }
                 catch (Exception ex)
                 {

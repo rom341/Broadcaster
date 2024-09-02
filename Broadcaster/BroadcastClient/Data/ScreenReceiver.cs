@@ -9,12 +9,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using System.Collections.Generic;
 using System.Windows;
+using BroadcastServer.Data;
 
 namespace BroadcastClient
 {
     public class ScreenReceiver
     {
         private readonly ILog logger;
+        FrequencyCounter frequencyCounter;
         private UdpClient udpClient;
         private const int port = 5000;
         private Thread receiveThread;
@@ -31,6 +33,10 @@ namespace BroadcastClient
             this.logger = logger;
             Dispatcher = dispatcher;
             this.imageDisplay = imageDisplay;
+            frequencyCounter = new FrequencyCounter(1, () =>
+            {
+                logger.Info($"FPS: {frequencyCounter.GetFrequency()}");
+            });
         }
 
         public void StartReceiving(string serverIpAddress, int serverPort = 8888, int clientPort = 8889)
@@ -48,6 +54,7 @@ namespace BroadcastClient
                     logger.Info($"Starting screen receiving from {serverIpAddress}:{serverPort}.");
                     receiveThread.Start();
                     logger.Info($"Screen receiving from {serverIpAddress}:{serverPort} started successfully.");
+                    frequencyCounter.Start();
                 }
                 catch (SocketException e)
                 {
@@ -64,6 +71,7 @@ namespace BroadcastClient
                 isRunning = false;
                 udpClient.Close();
                 receiveThread?.Join();
+                frequencyCounter.Stop();
             }
         }
 
@@ -88,6 +96,7 @@ namespace BroadcastClient
                         {
                             logger.Info($"Displaying image of {receivedPackets.Count} bytes");
                             DisplayImage();
+                            frequencyCounter.IncrementCounter();
                             receivedPackets.Clear();
                         }
                     }

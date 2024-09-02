@@ -23,7 +23,7 @@ namespace BroadcastServer
             log = LogManager.GetLogger(typeof(MainWindow));
             XmlConfigurator.Configure(new FileInfo("C:\\Users\\Roman\\source\\repos\\Broadcaster\\BroadcastClient\\log4net.config"));
             screenStreamer = new ScreenStreamer(log);
-            //screenStreamer.screenBounds = new System.Drawing.Rectangle(0, 0, 640, 480);
+            screenStreamer.screenBounds = new System.Drawing.Rectangle(0, 0, 640, 480);
         }
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
